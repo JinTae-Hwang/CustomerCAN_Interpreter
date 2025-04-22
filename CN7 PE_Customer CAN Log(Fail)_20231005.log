@@ -1,0 +1,575 @@
+[14:40:15.339] ▷ CheckDLCCable(09314F38)
+[14:40:15.360] CheckDLCCable Result (256) - Status (1)
+[14:40:15.385] 
+[14:40:15.385] ▷▶ Inspect Name(TMU)
+[14:40:15.390] 
+[14:40:15.395] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( FUNC_07DF_F0 ) SystemID(en) Tidle(9999) P2Min(3000) AckCount(0)
+[14:40:15.461] ▶ Actuator_Start(09314F38)-> Index(E002), Action(0)
+[14:40:15.552] Req : 07DF021081
+[14:40:18.561] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[14:40:18.562] Actuator_Result Fail!!!(1344)
+[14:40:18.640] ▷ CheckDLCCable(09314F38)
+[14:40:18.667] CheckDLCCable Result (256) - Status (1)
+[14:40:18.816] 
+[14:40:18.817] ▷▶ Inspect Name(IGN ON)
+[14:40:18.822] 
+[14:40:18.827] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_IBU_MOBASE_200101_F0 ) SystemID(tp) Tidle(9999) P2Min(3000) AckCount(0)
+[14:40:18.944] Req : 07A0021003
+[14:40:19.006] Res : 07A85003003201F4
+[14:40:19.177] Communication_Open Result(SUCCESS)
+[14:40:19.205] ▶ Current Data_Set(09314F38)-> (R242,)
+[14:40:19.314] ▷ CheckDLCCable(09314F38)
+[14:40:19.335] CheckDLCCable Result (256) - Status (1)
+[14:40:19.420] Req : 07A00322B004
+[14:40:19.490] Res : 07A862B0047000990C0E008000
+[14:40:19.491] ▶ Current Data_Read (SUCCESS) -> [ON,]
+[14:40:19.513] ▶ Communication_Close(09314F38)-> ( CN7-PE_IBU_MOBASE_200101_F0 )
+[14:40:19.513] ▶ Close Working - TestingLog
+[14:40:19.518] Req : 07A0021001
+[14:40:19.587] Res : 07A85001003201F4
+[14:40:19.644] Communication_Close Finish
+[14:40:19.740] ▷ CheckDLCCable(09314F38)
+[14:40:19.760] CheckDLCCable Result (256) - Status (1)
+[14:40:19.921] 
+[14:40:19.922] ▷▶ Inspect Name(GEAR)
+[14:40:19.926] 
+[14:40:19.933] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-N-PE_202501_TCU_8DCT_F0 ) SystemID(tr) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:19.995] Req : 07E1021003
+[14:40:20.042] Res : 07E95003001E01F4
+[14:40:20.230] Communication_Open Result(SUCCESS)
+[14:40:20.256] ▶ Current Data_Set(09314F38)-> (20272,)
+[14:40:20.368] ▷ CheckDLCCable(09314F38)
+[14:40:20.389] CheckDLCCable Result (256) - Status (1)
+[14:40:20.474] Req : 07E1032201A4
+[14:40:20.610] Res : 07E96201A4FFFFFFE0000000132A00000000000400000000003371FE8D0000020000F0FCC0FF0025001A000000000000000000000000000D78196A
+[14:40:20.610] ▶ Current Data_Read (SUCCESS) -> [  0.0 RPM,]
+[14:40:20.771] ▶ Current Data_Set(09314F38)-> (A3273,)
+[14:40:20.886] ▷ CheckDLCCable(09314F38)
+[14:40:20.916] CheckDLCCable Result (256) - Status (1)
+[14:40:20.992] Req : 07E1032201A4
+[14:40:21.123] Res : 07E96201A4FFFFFFE0000000122A00000000000400000000003354FE8D0000020000F0FCC0FF0025001A000000000000000000000000000D78196B
+[14:40:21.124] ▶ Current Data_Read (SUCCESS) -> [N,]
+[14:40:21.146] ▶ Communication_Close(09314F38)-> ( CN7-N-PE_202501_TCU_8DCT_F0 )
+[14:40:21.147] ▶ Close Working - TestingLog
+[14:40:21.153] Req : 07E1021001
+[14:40:21.219] Res : 07E95001001E01F4
+[14:40:21.290] Communication_Close Finish
+[14:40:23.576] ▷ CheckDLCCable(09314F38)
+[14:40:23.603] CheckDLCCable Result (256) - Status (1)
+[14:40:24.428] ▷ CheckDLCCable(09314F38)
+[14:40:24.455] CheckDLCCable Result (256) - Status (1)
+[14:40:26.740] ▷ CheckDLCCable(09314F38)
+[14:40:26.761] CheckDLCCable Result (256) - Status (1)
+[14:40:29.020] ▷ CheckDLCCable(09314F38)
+[14:40:29.043] CheckDLCCable Result (256) - Status (1)
+[14:40:30.557] 
+[14:40:30.558] ▷▶ Inspect Name(FR_CMR)
+[14:40:30.562] 
+[14:40:30.567] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_FR-CMR_MANDO_1003601_F0 ) SystemID(ldws) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:30.607] Req : 07C4021003
+[14:40:30.640] Res : 07CC5003
+[14:40:30.853] Communication_Open Result(SUCCESS)
+[14:40:30.869] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (100000), Param (0), Write Param ()
+[14:40:30.929] Req(00): 07C4022711
+[14:40:31.002] Res    : 07CC6711A40B986B170A1DD5
+[14:40:31.551] Req(00): 07C40A2712DA9A498D3BFBB657
+[14:40:31.609] Res    : 07CC6712
+[14:40:32.116] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:32.117] Complete Callback (685A9010)
+[14:40:32.147] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (20100), Param (0), Write Param (0800203067400000)
+[14:40:32.205] Req(00): 07C40B2E00100800203067400000
+[14:40:32.780] Res    : 07CC6E0010
+[14:40:32.781] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:32.787] Complete Callback (685A9010)
+[14:40:35.128] ▷ CheckDLCCable(09314F38)
+[14:40:35.149] CheckDLCCable Result (256) - Status (1)
+[14:40:36.982] 
+[14:40:36.982] ▷▶ Inspect Name(FR_CMR)
+[14:40:36.987] 
+[14:40:36.992] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_FR-CMR_MANDO_1003601_F0 ) SystemID(ldws) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:37.037] Req : 07C4021003
+[14:40:37.078] Res : 07CC5003
+[14:40:37.281] Communication_Open Result(SUCCESS)
+[14:40:37.297] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (100000), Param (0), Write Param ()
+[14:40:37.359] Req(00): 07C4022711
+[14:40:37.448] Res    : 07CC6711982DC6EB93D2FF6C
+[14:40:38.012] Req(00): 07C40A2712C3C9D6F22C6FAF26
+[14:40:38.069] Res    : 07CC6712
+[14:40:38.584] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:38.585] Complete Callback (685A9010)
+[14:40:38.617] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (18910), Param (0), Write Param ()
+[14:40:38.678] Req(01): 07C4043101F002
+[14:40:38.708] Res    : 07CC7101F002
+[14:40:38.709] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:38.715] Complete Callback (685A9010)
+[14:40:38.742] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (18920), Param (0), Write Param ()
+[14:40:39.366] Req(00): 07C4043103F002
+[14:40:39.407] Res    : 07CC7103F0020300
+[14:40:40.026] Req(00): 07C4043103F002
+[14:40:40.061] Res    : 07CC7103F0020101
+[14:40:40.120] Req(01): 07C4043102F002
+[14:40:40.148] Res    : 07CC7102F002
+[14:40:40.149] AuxFunction_Result (AUX_RESULT_OK) [0101]
+[14:40:40.159] Complete Callback (685A9010)
+[14:40:40.184] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (19400), Param (0), Write Param ()
+[14:40:40.242] Req(00): 07C403220101
+[14:40:40.268] Res    : 07CC6201010E
+[14:40:40.269] AuxFunction_Result (AUX_RESULT_OK) [0E]
+[14:40:40.275] Complete Callback (685A9010)
+[14:40:40.335] ▶ DTC Erase_Start(09314F38)
+[14:40:40.349] Req : 07C40414FFFFFF
+[14:40:40.379] Res : 07CC54
+[14:40:40.380] DTC Erase_Result (SUCCESS)
+[14:40:40.416] ▶ Current Data_Set(09314F38)-> (A2070,R6680,R6682,)
+[14:40:40.533] ▷ CheckDLCCable(09314F38)
+[14:40:40.554] CheckDLCCable Result (256) - Status (1)
+[14:40:40.639] Req : 07C403220040
+[14:40:40.708] Res : 07CC62004000CA009A023D
+[14:40:40.709] ▶ Current Data_Read (SUCCESS) -> [  202 Pixel,  154 Pixel,0.0573 rad,]
+[14:40:40.775] ▶ Communication_Close(09314F38)-> ( CN7-PE_FR-CMR_MANDO_1003601_F0 )
+[14:40:40.775] ▶ Close Working - TestingLog
+[14:40:40.781] Req : 07C4021001
+[14:40:40.819] Res : 07CC5001
+[14:40:40.875] Communication_Close Finish
+[14:40:40.972] ▷ CheckDLCCable(09314F38)
+[14:40:40.993] CheckDLCCable Result (256) - Status (1)
+[14:40:41.021] 
+[14:40:41.022] ▷▶ Inspect Name(RVM)
+[14:40:41.029] 
+[14:40:41.034] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7_201002_RR_CMR_F0 ) SystemID(bcm) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:41.077] Req : 0796021003
+[14:40:41.129] Res : 079E5003
+[14:40:41.324] Communication_Open Result(SUCCESS)
+[14:40:41.887] ▶ DTC Erase_Start(09314F38)
+[14:40:41.901] Req : 07960414FFFFFF
+[14:40:41.935] Res : 079E54
+[14:40:41.936] DTC Erase_Result (SUCCESS)
+[14:40:41.963] ▶ Communication_Close(09314F38)-> ( CN7_201002_RR_CMR_F0 )
+[14:40:41.963] ▶ Close Working - TestingLog
+[14:40:41.968] Req : 0796021001
+[14:40:42.025] Res : 079E5001
+[14:40:42.078] Communication_Close Finish
+[14:40:42.191] ▷ CheckDLCCable(09314F38)
+[14:40:42.212] CheckDLCCable Result (256) - Status (1)
+[14:40:42.242] 
+[14:40:42.243] ▷▶ Inspect Name(OCS)
+[14:40:42.251] 
+[14:40:42.259] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7_201301_ODS_F0 ) SystemID(ab) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:42.288] Req : 07C3021003
+[14:40:42.327] Res : 07CB5003003201F4
+[14:40:42.498] Communication_Open Result(SUCCESS)
+[14:40:43.058] ▶ DTC Erase_Start(09314F38)
+[14:40:43.071] Req : 07C30414FFFFFF
+[14:40:43.097] Res : 07CB54
+[14:40:43.097] DTC Erase_Result (SUCCESS)
+[14:40:43.119] ▶ Communication_Close(09314F38)-> ( CN7_201301_ODS_F0 )
+[14:40:43.120] ▶ Close Working - TestingLog
+[14:40:43.127] Req : 07C3021001
+[14:40:43.173] Res : 07CB5001003201F4
+[14:40:43.229] Communication_Close Finish
+[14:40:43.326] ▷ CheckDLCCable(09314F38)
+[14:40:43.349] CheckDLCCable Result (256) - Status (1)
+[14:40:43.378] 
+[14:40:43.379] ▷▶ Inspect Name(MDPS)
+[14:40:43.384] 
+[14:40:43.391] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-N_203002_MDPS_R-TYPE_F0 ) SystemID(st) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:43.449] Req : 07D4021003
+[14:40:43.493] Res : 07DC5003003201F4
+[14:40:43.678] Communication_Open Result(SUCCESS)
+[14:40:43.709] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (13900), Param (0), Write Param (00000007)
+[14:40:43.769] Req(00): 07D4022711
+[14:40:43.819] Res    : 07DC6711EA9312D694DCB7FF
+[14:40:44.382] Req(00): 07D40A271248EA4A05241E3684
+[14:40:44.444] Res    : 07DC6712
+[14:40:44.996] Req(04): 07D4072E010200000007
+[14:40:45.025] Res    : 07DC6E010200000007
+[14:40:45.527] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:45.528] Complete Callback (685A9010)
+[14:40:45.560] ▶ DTC Erase_Start(09314F38)
+[14:40:45.575] Req : 07D40414FFFFFF
+[14:40:45.744] Res : 07DC54
+[14:40:45.745] DTC Erase_Result (SUCCESS)
+[14:40:45.773] ▶ Communication_Close(09314F38)-> ( CN7-N_203002_MDPS_R-TYPE_F0 )
+[14:40:45.773] ▶ Close Working - TestingLog
+[14:40:45.779] Req : 07D4021001
+[14:40:45.814] Res : 07DC5001003201F4
+[14:40:45.888] Communication_Close Finish
+[14:40:45.991] ▷ CheckDLCCable(09314F38)
+[14:40:46.012] CheckDLCCable Result (256) - Status (1)
+[14:40:46.042] 
+[14:40:46.043] ▷▶ Inspect Name(ECU)
+[14:40:46.049] 
+[14:40:46.055] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-N_202301_ENG-Theta_F0 ) SystemID(en) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:46.171] Req : 07E0021003
+[14:40:46.194] Res : 07E85003
+[14:40:46.384] Communication_Open Result(SUCCESS)
+[14:40:48.025] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (10100), Param (0), Write Param ()
+[14:40:48.087] Req(00): 07E00322F190
+[14:40:48.118] Res    : 07E862F1900000000000000000000000000000000000
+[14:40:48.119] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:48.128] Complete Callback (685A9010)
+[14:40:48.163] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (12800), Param (0), Write Param (KMHLW41K6RU018037)
+[14:40:48.226] Req(10): 07E0021003
+[14:40:48.252] Res    : 07E85003
+[14:40:48.302] Req(10): 07E0142EF1904b4d484c5734314b365255303138303337
+[14:40:48.344] Res    : 07E86EF190
+[14:40:48.394] Req(06): 07E00322E090
+[14:40:48.429] Res    : 07E862E0904B4D484C5734314B365255303138303337
+[14:40:48.429] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:48.442] Complete Callback (685A9010)
+[14:40:48.473] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (12810), Param (0), Write Param ()
+[14:40:48.533] Req(00): 07E0021001
+[14:40:48.559] Res    : 07E85001
+[14:40:48.610] Req(00): 07E0043101FF90
+[14:40:48.660] Res    : 07E87101FF90
+[14:40:48.716] Req(00): 07E0021003
+[14:40:48.734] Res    : 07E85003
+[14:40:48.735] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:48.745] Complete Callback (685A9010)
+[14:40:48.777] ▶ DTC Erase_Start(09314F38)
+[14:40:48.791] Req : 07E00414FFFFFF
+[14:40:48.810] Fail Response(NEGATIVE RESPONSE)(16384) : 07E87F1411
+[14:40:48.822] Req : 07E00414FFFFFF
+[14:40:48.834] Fail Response(NEGATIVE RESPONSE)(16384) : 07E87F1411
+[14:40:48.852] Req : 07E00414FFFFFF
+[14:40:48.867] Fail Response(NEGATIVE RESPONSE)(16384) : 07E87F1411
+[14:40:48.867] DTC Erase_Result (NEGATIVE RESPONSE), Negative Res - INDEX (2000), SID (14), STATUS (11), DESC (DTC_ERASE)
+[14:40:49.403] ▶ DTC Erase_Start(09314F38)
+[14:40:49.417] Req : 07E00414FFFFFF
+[14:40:49.433] Fail Response(NEGATIVE RESPONSE)(16384) : 07E87F1411
+[14:40:49.447] Req : 07E00414FFFFFF
+[14:40:49.464] Fail Response(NEGATIVE RESPONSE)(16384) : 07E87F1411
+[14:40:49.477] Req : 07E00414FFFFFF
+[14:40:49.495] Fail Response(NEGATIVE RESPONSE)(16384) : 07E87F1411
+[14:40:49.495] DTC Erase_Result (NEGATIVE RESPONSE), Negative Res - INDEX (2000), SID (14), STATUS (11), DESC (DTC_ERASE)
+[14:40:49.524] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (110000), Param (0), Write Param ()
+[14:40:49.583] Req(00): 07DF0104
+[14:40:49.604] Res    : 07E844
+[14:40:49.605] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:49.613] Complete Callback (685A9010)
+[14:40:49.645] ▶ Communication_Close(09314F38)-> ( CN7-N_202301_ENG-Theta_F0 )
+[14:40:49.645] ▶ Close Working - TestingLog
+[14:40:49.652] Req : 07E0021001
+[14:40:49.698] Res : 07E85001
+[14:40:49.747] Communication_Close Finish
+[14:40:49.841] ▷ CheckDLCCable(09314F38)
+[14:40:49.862] CheckDLCCable Result (256) - Status (1)
+[14:40:49.894] 
+[14:40:49.895] ▷▶ Inspect Name(CLU)
+[14:40:49.901] 
+[14:40:49.908] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_CLU_DENSO_200901_F0 ) SystemID(bcm) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:49.945] Req : 07C6021003
+[14:40:49.972] Res : 07CE5003003201F4
+[14:40:50.161] Communication_Open Result(SUCCESS)
+[14:40:50.180] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (100000), Param (0), Write Param ()
+[14:40:50.236] Req(00): 07C6022711
+[14:40:50.287] Res    : 07CE6711504B363B98C12901
+[14:40:50.343] Req(00): 07C60A27125E19212E112D3629
+[14:40:50.402] Res    : 07CE6712
+[14:40:50.403] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:50.411] Complete Callback (685A9010)
+[14:40:50.436] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (20105), Param (0), Write Param (1FC60723)
+[14:40:50.496] Req(00): 07C6072E00601FC60723
+[14:40:52.526] Res    : 07CE6E0060
+[14:40:52.526] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:52.534] Complete Callback (685A9010)
+[14:40:52.562] ▶ DTC Erase_Start(09314F38)
+[14:40:52.576] Req : 07C60414FFFFFF
+[14:40:52.621] Res : 07CE54
+[14:40:52.621] DTC Erase_Result (SUCCESS)
+[14:40:52.653] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (10000), Param (1), Write Param ()
+[14:40:52.666] Req : 07C60322F187
+[14:40:52.726] Res : 07CE62F18739343039334942303030
+[14:40:52.727] AuxFunction_Result (AUX_RESULT_OK) [94093-IB000]
+[14:40:52.735] Complete Callback (685A9010)
+[14:40:52.760] ▶ Communication_Close(09314F38)-> ( CN7-PE_CLU_DENSO_200901_F0 )
+[14:40:52.760] ▶ Close Working - TestingLog
+[14:40:52.769] Req : 07C6021001
+[14:40:52.815] Res : 07CE5001003201F4
+[14:40:52.876] Communication_Close Finish
+[14:40:52.976] ▷ CheckDLCCable(09314F38)
+[14:40:53.002] CheckDLCCable Result (256) - Status (1)
+[14:40:53.038] 
+[14:40:53.038] ▷▶ Inspect Name(ABAG)
+[14:40:53.044] 
+[14:40:53.052] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_ACU_CONTI_200306_F0 ) SystemID(ab) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:40:53.141] Req : 07D2021003
+[14:40:53.179] Res : 07DA5003
+[14:40:53.376] Communication_Open Result(SUCCESS)
+[14:40:53.392] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (100000), Param (0), Write Param ()
+[14:40:53.452] Req(00): 07D2022711
+[14:40:53.532] Res    : 07DA67110BCBD3F5A55E10A8
+[14:40:53.592] Req(00): 07D20A27128F4F5E54E3D1BFC4
+[14:40:53.653] Res    : 07DA6712
+[14:40:53.654] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:53.662] Complete Callback (685A9010)
+[14:40:53.688] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (12800), Param (0), Write Param (KMHLW41K6RU018037)
+[14:40:53.758] Req(10): 07D2142EF1904b4d484c5734314b365255303138303337
+[14:40:53.927] Res    : 07DA6EF190
+[14:40:53.928] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:53.940] Complete Callback (685A9010)
+[14:40:53.973] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (14100), Param (0), Write Param ()
+[14:40:54.033] Req(00): 07D20322F101
+[14:40:54.103] Res    : 07DA62F10120202020
+[14:40:54.615] AuxFunction_Result (AUX_RESULT_OK) [    ]
+[14:40:54.616] Complete Callback (685A9010)
+[14:40:54.661] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (100000), Param (0), Write Param ()
+[14:40:54.723] Req(00): 07D2022711
+[14:40:54.783] Res    : 07DA67110000000000000000
+[14:40:54.783] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:54.791] Complete Callback (685A9010)
+[14:40:54.815] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (20100), Param (1), Write Param (IB33)
+[14:40:54.875] Req(01): 07D2072EF10149423333
+[14:40:54.923] Res    : 07DA6EF101
+[14:40:54.950] AuxFunction_Result (AUX_RESULT_OK) []
+[14:40:54.952] Complete Callback (685A9010)
+[14:40:56.607] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (14300), Param (0), Write Param ()
+[14:40:56.668] Req(01): 07D2042EF10301
+[14:40:56.733] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F2E22
+[14:40:56.734] AuxFunction_Result (NEGATIVE RESPONSE), Negative Res - INDEX (14300), SID (2E), STATUS (22), DESC (AUXFUNC)
+[14:40:56.748] Complete Callback (685A9010)
+[14:40:58.825] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (17300), Param (0), Write Param ()
+[14:40:58.884] Req(00): 07D2061906976200FF
+[14:40:59.264] Res    : 07DA590697620089FF010002000000000000000000
+[14:40:59.767] AuxFunction_Result (AUX_RESULT_OK) [07DA590697620089FF0100020000000000000000]
+[14:40:59.769] Complete Callback (685A9010)
+[14:40:59.800] ▶ DTC Erase_Start(09314F38)
+[14:40:59.814] Req : 07D20414FFFFFF
+[14:40:59.853] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[14:40:59.860] Req : 07D20414FFFFFF
+[14:40:59.904] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[14:40:59.921] Req : 07D20414FFFFFF
+[14:40:59.964] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[14:40:59.965] DTC Erase_Result (NEGATIVE RESPONSE), Negative Res - INDEX (2000), SID (14), STATUS (22), DESC (DTC_ERASE)
+[14:40:59.999] ▶ Communication_Close(09314F38)-> ( CN7-PE_ACU_CONTI_200306_F0 )
+[14:41:00.000] ▶ Close Working - TestingLog
+[14:41:00.007] Req : 07D2021001
+[14:41:00.063] Res : 07DA5001
+[14:41:00.150] Communication_Close Finish
+[14:41:00.245] ▷ CheckDLCCable(09314F38)
+[14:41:00.291] CheckDLCCable Result (256) - Status (1)
+[14:41:00.341] 
+[14:41:00.342] ▷▶ Inspect Name(ECS)
+[14:41:00.351] 
+[14:41:00.357] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-N_203401_ECS_F0 ) SystemID(ecs) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:41:00.402] Req : 07D3021003
+[14:41:00.438] Res : 07DB5003003201F4
+[14:41:00.628] Communication_Open Result(SUCCESS)
+[14:41:00.648] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (100000), Param (0), Write Param ()
+[14:41:00.705] Req(00): 07D3022711
+[14:41:00.729] Res    : 07DB6711BEA6048E89A844A9
+[14:41:01.302] Req(00): 07D30A2712D5CA7097456ED120
+[14:41:01.430] Res    : 07DB6712
+[14:41:01.945] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:01.947] Complete Callback (685A9010)
+[14:41:01.977] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (20100), Param (0), Write Param (21380000)
+[14:41:02.038] Req(01): 07D3072EF10121380000
+[14:41:02.050] Res    : 07DB6EF101
+[14:41:02.083] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:02.084] Complete Callback (685A9010)
+[14:41:02.114] ▶ DTC Erase_Start(09314F38)
+[14:41:02.128] Req : 07D30414FFFFFF
+[14:41:02.149] Res : 07DB54
+[14:41:02.150] DTC Erase_Result (SUCCESS)
+[14:41:02.174] ▶ Communication_Close(09314F38)-> ( CN7-N_203401_ECS_F0 )
+[14:41:02.174] ▶ Close Working - TestingLog
+[14:41:02.181] Req : 07D3021001
+[14:41:02.220] Res : 07DB5001003201F4
+[14:41:02.273] Communication_Close Finish
+[14:41:02.371] ▷ CheckDLCCable(09314F38)
+[14:41:02.393] CheckDLCCable Result (256) - Status (1)
+[14:41:02.423] 
+[14:41:02.424] ▷▶ Inspect Name(MFSW)
+[14:41:02.431] 
+[14:41:02.438] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-N_1000601_MFSW_F0 ) SystemID(st) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:41:02.471] Req : 07A6021003
+[14:41:02.513] Res : 07AE5003003201F4
+[14:41:02.736] Communication_Open Result(SUCCESS)
+[14:41:04.370] ▶ DTC Erase_Start(09314F38)
+[14:41:04.384] Req : 07A60414FFFFFF
+[14:41:04.423] Res : 07AE54
+[14:41:04.424] DTC Erase_Result (SUCCESS)
+[14:41:04.447] ▶ Communication_Close(09314F38)-> ( CN7-N_1000601_MFSW_F0 )
+[14:41:04.448] ▶ Close Working - TestingLog
+[14:41:04.453] Req : 07A6021001
+[14:41:04.512] Res : 07AE5001003201F4
+[14:41:04.558] Communication_Close Finish
+[14:41:04.657] ▷ CheckDLCCable(09314F38)
+[14:41:04.678] CheckDLCCable Result (256) - Status (1)
+[14:41:04.704] 
+[14:41:04.705] ▷▶ Inspect Name(ESC)
+[14:41:04.711] 
+[14:41:04.718] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_ABS_MOBIS_202102_F0 ) SystemID(br) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:41:04.778] Req : 07D1021003
+[14:41:04.844] Res : 07D95003002D00C8
+[14:41:05.039] Communication_Open Result(SUCCESS)
+[14:41:05.060] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (100000), Param (0), Write Param ()
+[14:41:05.116] Req(00): 07D1022711
+[14:41:05.169] Res    : 07D967116DBBB2096E0CF156
+[14:41:05.738] Req(00): 07D10A2712A1BC41AE854FF474
+[14:41:05.794] Res    : 07D96712
+[14:41:06.305] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:06.306] Complete Callback (685A9010)
+[14:41:06.338] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (20100), Param (0), Write Param (88860351)
+[14:41:06.396] Req(01): 07D1072E010388860351
+[14:41:06.423] Res    : 07D96E0103
+[14:41:06.424] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:06.431] Complete Callback (685A9010)
+[14:41:06.731] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (13800), Param (0), Write Param ()
+[14:41:06.791] Req(01): 07D1053101020000
+[14:41:06.819] Res    : 07D97101020002
+[14:41:06.867] Req(01): 07D10531010200FF
+[14:41:07.494] Res    : 07D97101020002
+[14:41:07.994] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:07.996] Complete Callback (685A9010)
+[14:41:08.040] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (14000), Param (0), Write Param ()
+[14:41:08.100] Req(01): 07D1042E0100FF
+[14:41:08.129] Res    : 07D96E0100
+[14:41:08.635] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:08.636] Complete Callback (685A9010)
+[14:41:10.718] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (24600), Param (0), Write Param ()
+[14:41:10.776] Req(00): 07D1042E010501
+[14:41:11.299] Res    : 07D96E0105
+[14:41:11.299] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:11.306] Complete Callback (685A9010)
+[14:41:11.344] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (16500), Param (0), Write Param ()
+[14:41:11.397] Req(00): 07D1021101
+[14:41:11.423] Res    : 07D95101
+[14:41:11.424] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:11.432] Complete Callback (685A9010)
+[14:41:13.511] ▶ Communication_Close(09314F38)-> ( CN7-PE_ABS_MOBIS_202102_F0 )
+[14:41:13.511] ▶ Close Working - TestingLog
+[14:41:13.516] Req : 07D1021001
+[14:41:13.570] Res : 07D95001002D00C8
+[14:41:13.644] Communication_Close Finish
+[14:41:13.682] 
+[14:41:13.683] ▷▶ Inspect Name(ESC)
+[14:41:13.690] 
+[14:41:13.697] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_ABS_MOBIS_202102_F0 ) SystemID(br) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:41:13.757] Req : 07D1021003
+[14:41:13.795] Res : 07D95003002D00C8
+[14:41:13.976] Communication_Open Result(SUCCESS)
+[14:41:13.992] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (15300), Param (0), Write Param ()
+[14:41:14.053] Req(01): 07D10531010201FF
+[14:41:14.600] Res    : 07D97101020102
+[14:41:15.168] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:15.170] Complete Callback (685A9010)
+[14:41:15.199] ▶ DTC Erase_Start(09314F38)
+[14:41:15.213] Req : 07D10414FFFFFF
+[14:41:15.769] Res : 07D954
+[14:41:15.770] DTC Erase_Result (SUCCESS)
+[14:41:15.800] ▶ Communication_Close(09314F38)-> ( CN7-PE_ABS_MOBIS_202102_F0 )
+[14:41:15.800] ▶ Close Working - TestingLog
+[14:41:15.806] Req : 07D1021001
+[14:41:15.839] Res : 07D95001002D00C8
+[14:41:15.890] Communication_Close Finish
+[14:41:15.981] ▷ CheckDLCCable(09314F38)
+[14:41:16.002] CheckDLCCable Result (256) - Status (1)
+[14:41:16.030] 
+[14:41:16.030] ▷▶ Inspect Name(LSD)
+[14:41:16.036] 
+[14:41:16.044] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-N_204701_LSD_F0 ) SystemID(ac) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:41:16.083] Req : 0717021003
+[14:41:16.112] Res : 071F5003003201F4
+[14:41:16.294] Communication_Open Result(SUCCESS)
+[14:41:17.921] ▶ DTC Erase_Start(09314F38)
+[14:41:17.936] Req : 07170414FFFFFF
+[14:41:18.032] Res : 071F54
+[14:41:18.032] DTC Erase_Result (SUCCESS)
+[14:41:18.063] ▶ Communication_Close(09314F38)-> ( CN7-N_204701_LSD_F0 )
+[14:41:18.063] ▶ Close Working - TestingLog
+[14:41:18.068] Req : 07170120
+[14:41:18.113] Res : 071F60
+[14:41:18.160] Communication_Close Finish
+[14:41:18.257] ▷ CheckDLCCable(09314F38)
+[14:41:18.278] CheckDLCCable Result (256) - Status (1)
+[14:41:18.299] 
+[14:41:18.299] ▷▶ Inspect Name(DTC_ALL_07DF)
+[14:41:18.307] 
+[14:41:18.312] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( FUNC_DTC_F0 ) SystemID(ETC) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:41:18.384] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (21220), Param (0), Write Param ()
+[14:41:18.444] Req(00): 07DF021090
+[14:41:18.462] Res    : 071F5090003201F4
+[14:41:18.520] Req(00): 07DF0314FF00
+[14:41:18.531] Fail Response(NEGATIVE RESPONSE)(16384) : 070A7F1413
+[14:41:18.580] Req(01): 07DF021003
+[14:41:18.591] Res    : 07CE5003003201F4
+[14:41:18.641] Req(01): 07DF0414FFFFFF
+[14:41:18.653] Res    : 070854
+[14:41:18.654] AuxFunction_Result (AUX_RESULT_OK) []
+[14:41:18.661] Complete Callback (685A9010)
+[14:41:18.687] ▶ Communication_Close(09314F38)-> ( FUNC_DTC_F0 )
+[14:41:18.688] ▶ Close Working - TestingLog
+[14:41:18.702] Communication_Close Finish
+[14:41:18.778] ▷ CheckDLCCable(09314F38)
+[14:41:18.799] CheckDLCCable Result (256) - Status (1)
+[14:41:18.822] 
+[14:41:18.822] ▷▶ Inspect Name(DTC_ALL)
+[14:41:18.828] 
+[14:41:18.833] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( FUNC_DTC_F0 ) SystemID(ETC) Tidle(9999) P2Min(3000) AckCount(9999)
+[14:41:18.884] ▶ AuxFunction_Start NRC(09314F38)-> Aux : Index (21250), Param (0), Write Param ()
+[14:41:18.946] Req(00): 07DF0104
+[14:41:24.993] Res    : 000007E80144AAAAAAAAAAAA000007E9037F0478AAAAAAAA000007E90144AAAAAAAAAAAA
+[14:41:24.993] AuxFunction_Result (AUX_RESULT_OK) [07E9(OK),07E8(OK),]
+[14:41:25.002] Complete Callback (685A9010)
+[14:41:25.025] ▶ Communication_Close(09314F38)-> ( FUNC_DTC_F0 )
+[14:41:25.026] ▶ Close Working - TestingLog
+[14:41:25.040] Communication_Close Finish
+[14:41:25.116] ▷ CheckDLCCable(09314F38)
+[14:41:25.139] CheckDLCCable Result (256) - Status (1)
+[14:41:25.164] 
+[14:41:25.165] ▷▶ Inspect Name(ABS)
+[14:41:25.173] 
+[14:41:25.183] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_ABS_MOBIS_202102_F0 ) SystemID(br) Tidle(9999) P2Min(3000) AckCount(0)
+[14:41:25.237] Req : 07D1021003
+[14:41:25.279] Res : 07D95003002D00C8
+[14:41:25.465] Communication_Open Result(SUCCESS)
+[14:41:25.497] ▶ DTC Read_Start(09314F38)-> DTC Status(0)
+[14:41:25.573] Req : 07D103190208
+[14:41:25.599] Res : 07D9590289
+[14:41:25.599] DTC Read_Result (SUCCESS) - DTC count(0) - 
+[14:41:25.622] ▶ Communication_Close(09314F38)-> ( CN7-PE_ABS_MOBIS_202102_F0 )
+[14:41:25.622] ▶ Close Working - TestingLog
+[14:41:25.627] Req : 07D1021001
+[14:41:25.675] Res : 07D95001002D00C8
+[14:41:25.737] Communication_Close Finish
+[14:41:25.816] ▷ CheckDLCCable(09314F38)
+[14:41:25.837] CheckDLCCable Result (256) - Status (1)
+[14:41:25.863] 
+[14:41:25.863] ▷▶ Inspect Name(RR_C_RDR_L)
+[14:41:25.872] 
+[14:41:25.878] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_200803_RR_C_RDR_LH_F0 ) SystemID(bsd) Tidle(9999) P2Min(3000) AckCount(0)
+[14:41:25.925] Req : 07B7021003
+[14:41:25.978] Res : 07BF5003003201C2
+[14:41:26.172] Communication_Open Result(SUCCESS)
+[14:41:26.188] ▶ DTC Read_Start(09314F38)-> DTC Status(0)
+[14:41:26.265] Req : 07B703190208
+[14:41:26.296] Res : 07BF590289
+[14:41:26.296] DTC Read_Result (SUCCESS) - DTC count(0) - 
+[14:41:26.318] ▶ Communication_Close(09314F38)-> ( CN7-PE_200803_RR_C_RDR_LH_F0 )
+[14:41:26.318] ▶ Close Working - TestingLog
+[14:41:26.324] Req : 07B7021001
+[14:41:26.377] Res : 07BF5001003201C2
+[14:41:26.428] Communication_Close Finish
+[14:41:26.511] ▷ CheckDLCCable(09314F38)
+[14:41:26.532] CheckDLCCable Result (256) - Status (1)
+[14:41:26.554] 
+[14:41:26.554] ▷▶ Inspect Name(RR_C_RDR_R)
+[14:41:26.561] 
+[14:41:26.566] ▷ Communication_Open(09314F38)-> MakerID(HY) EcuID( CN7-PE_200804_RR_C_RDR_RH_F0 ) SystemID(bsd) Tidle(9999) P2Min(3000) AckCount(0)
+[14:41:26.602] Req : 0755021003
+[14:41:26.662] Res : 075D5003003201C2
+[14:41:26.844] Communication_Open Result(SUCCESS)
+[14:41:26.861] ▶ DTC Read_Start(09314F38)-> DTC Status(0)
+[14:41:26.952] Req : 075503190208
+[14:41:26.992] Res : 075D590289
+[14:41:26.992] DTC Read_Result (SUCCESS) - DTC count(0) - 
+[14:41:27.014] ▶ Communication_Close(09314F38)-> ( CN7-PE_200804_RR_C_RDR_RH_F0 )
+[14:41:27.014] ▶ Close Working - TestingLog
+[14:41:27.022] Req : 0755021001
+[14:41:27.086] Res : 075D5001003201C2
+[14:41:27.146] Communication_Close Finish
+[14:41:27.611] ▷ CheckDLCCable(09314F38)
+[14:41:27.632] CheckDLCCable Result (256) - Status (0)
+[14:41:27.842] ▷ CheckDLCCable(09314F38)
+[14:41:27.863] CheckDLCCable Result (256) - Status (0)

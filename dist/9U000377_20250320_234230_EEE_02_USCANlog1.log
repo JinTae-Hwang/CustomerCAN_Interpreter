@@ -1,0 +1,1121 @@
+﻿[23:42:30.190] ▷ CheckDLCCable(08050E98)
+[23:42:30.211] CheckDLCCable Result (256) - Status (0)
+[23:42:31.017] ▷ CheckDLCCable(08050E98)
+[23:42:31.039] CheckDLCCable Result (256) - Status (0)
+[23:42:31.847] ▷ CheckDLCCable(08050E98)
+[23:42:31.868] CheckDLCCable Result (256) - Status (0)
+[23:42:32.675] ▷ CheckDLCCable(08050E98)
+[23:42:32.694] CheckDLCCable Result (256) - Status (0)
+[23:42:33.502] ▷ CheckDLCCable(08050E98)
+[23:42:33.522] CheckDLCCable Result (256) - Status (0)
+[23:42:34.329] ▷ CheckDLCCable(08050E98)
+[23:42:34.349] CheckDLCCable Result (256) - Status (0)
+[23:42:35.159] ▷ CheckDLCCable(08050E98)
+[23:42:35.179] CheckDLCCable Result (256) - Status (0)
+[23:42:35.988] ▷ CheckDLCCable(08050E98)
+[23:42:36.008] CheckDLCCable Result (256) - Status (0)
+[23:42:36.814] ▷ CheckDLCCable(08050E98)
+[23:42:36.834] CheckDLCCable Result (256) - Status (0)
+[23:42:37.645] ▷ CheckDLCCable(08050E98)
+[23:42:37.665] CheckDLCCable Result (256) - Status (0)
+[23:42:38.469] ▷ CheckDLCCable(08050E98)
+[23:42:38.489] CheckDLCCable Result (256) - Status (0)
+[23:42:39.301] ▷ CheckDLCCable(08050E98)
+[23:42:39.321] CheckDLCCable Result (256) - Status (0)
+[23:42:40.127] ▷ CheckDLCCable(08050E98)
+[23:42:40.147] CheckDLCCable Result (256) - Status (0)
+[23:42:40.955] ▷ CheckDLCCable(08050E98)
+[23:42:40.975] CheckDLCCable Result (256) - Status (0)
+[23:42:41.783] ▷ CheckDLCCable(08050E98)
+[23:42:41.803] CheckDLCCable Result (256) - Status (0)
+[23:42:42.613] ▷ CheckDLCCable(08050E98)
+[23:42:42.633] CheckDLCCable Result (256) - Status (0)
+[23:42:43.440] ▷ CheckDLCCable(08050E98)
+[23:42:43.460] CheckDLCCable Result (256) - Status (0)
+[23:42:44.267] ▷ CheckDLCCable(08050E98)
+[23:42:44.286] CheckDLCCable Result (256) - Status (0)
+[23:42:45.096] ▷ CheckDLCCable(08050E98)
+[23:42:45.116] CheckDLCCable Result (256) - Status (0)
+[23:42:45.923] ▷ CheckDLCCable(08050E98)
+[23:42:45.943] CheckDLCCable Result (256) - Status (0)
+[23:42:46.751] ▷ CheckDLCCable(08050E98)
+[23:42:46.771] CheckDLCCable Result (256) - Status (0)
+[23:42:47.582] ▷ CheckDLCCable(08050E98)
+[23:42:47.602] CheckDLCCable Result (256) - Status (0)
+[23:42:48.409] ▷ CheckDLCCable(08050E98)
+[23:42:48.429] CheckDLCCable Result (256) - Status (0)
+[23:42:49.235] ▷ CheckDLCCable(08050E98)
+[23:42:49.255] CheckDLCCable Result (256) - Status (0)
+[23:42:50.064] ▷ CheckDLCCable(08050E98)
+[23:42:50.083] CheckDLCCable Result (256) - Status (0)
+[23:42:52.590] ▷ CheckDLCCable(08050E98)
+[23:42:52.610] CheckDLCCable Result (256) - Status (0)
+[23:42:53.498] ▷ CheckDLCCable(08050E98)
+[23:42:53.519] CheckDLCCable Result (256) - Status (1)
+[23:42:54.763] 
+[23:42:54.763] ▷▶ Inspect Name(FUNCTION)
+[23:42:54.764] 
+[23:42:54.764] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( FUNC_07DF_F0 ) SystemID(ETC) Tidle(9999) P2Min(300) AckCount(9999)
+[23:42:54.776] ▶ Actuator_Start(08050E98)-> Index(E002), Action(0)
+[23:42:54.840] Req : 07DF021081
+[23:42:55.143] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:42:55.143] Actuator_Result Fail!!!(1344)
+[23:42:55.144] ▶ Communication_Close(08050E98)-> ( FUNC_07DF_F0 )
+[23:42:55.144] ▶ Close Working - TestingLog
+[23:42:55.144] TxRxComp
+[23:42:55.144] Comm Close - 0
+[23:42:55.145] Comm Close - 1
+[23:42:55.145] Communication_Close Fail!!!(FUNC_07DF_F0) 
+[23:42:55.145] Comm Close - 2
+[23:42:55.146] Comm Close - 3
+[23:42:55.146] Comm Close - 4
+[23:42:55.146] Comm Close - 5
+[23:42:55.146] Comm Close - 6
+[23:42:55.146] Communication_Close Finish
+[23:42:55.150] 
+[23:42:55.150] ▷▶ Inspect Name(IBU)
+[23:42:55.150] 
+[23:42:55.150] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_BDC_MOBIS_1009001_F0 ) SystemID(ibu) Tidle(9999) P2Min(1000) AckCount(0)
+[23:42:55.236] Req : 07A0021003
+[23:42:55.284] Res : 07A85003003201F4
+[23:42:55.449] Communication_Open Result(SUCCESS)
+[23:42:57.450] ▶ Current Data_Set(08050E98)-> (R483)
+[23:42:57.515] Req : 07A00322B003
+[23:42:57.575] Res : 07A862B003761D1C580E002808
+[23:42:57.575] ▶ Current Data_Read (SUCCESS) -> [ON,]
+[23:42:57.576] ▶ Communication_Close(08050E98)-> ( LX3_BDC_MOBIS_1009001_F0 )
+[23:42:57.576] ▶ Close Working - TestingLog
+[23:42:57.576] Req : 07A0021001
+[23:42:57.619] Res : 07A85001003201F4
+[23:42:57.619] TxRxComp
+[23:42:57.620] Comm Close - 0
+[23:42:57.621] Comm Close - 1
+[23:42:57.621] Comm Close - 2
+[23:42:57.622] Comm Close - 3
+[23:42:57.622] Comm Close - 4
+[23:42:57.622] Comm Close - 5
+[23:42:57.622] Comm Close - 6
+[23:42:57.623] Communication_Close Finish
+[23:42:57.626] 
+[23:42:57.626] ▷▶ Inspect Name(TCU)
+[23:42:57.627] 
+[23:42:57.627] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3-HEV_TCU-6AT_KEPICO_202504_F0 ) SystemID(tcu) Tidle(9999) P2Min(1000) AckCount(0)
+[23:42:57.672] Req : 07E1021003
+[23:42:57.702] Res : 07E95003003201F4
+[23:42:57.865] Communication_Open Result(SUCCESS)
+[23:42:57.865] ▶ Current Data_Set(08050E98)-> (4112)
+[23:42:57.930] Req : 07E1032201A0
+[23:42:58.062] Res : 07E96201A0FF3FDE000000000000000000005D000000000000060001FFF0C0FF0100000000000000000000
+[23:42:58.152] ▶ Current Data_Read (SUCCESS) -> [N,]
+[23:42:58.153] ▶ Communication_Close(08050E98)-> ( LX3-HEV_TCU-6AT_KEPICO_202504_F0 )
+[23:42:58.153] ▶ Close Working - TestingLog
+[23:42:58.154] Req : 07E1021001
+[23:42:58.187] Res : 07E95001003201F4
+[23:42:58.187] TxRxComp
+[23:42:58.187] Comm Close - 0
+[23:42:58.188] Comm Close - 1
+[23:42:58.188] Comm Close - 2
+[23:42:58.189] Comm Close - 3
+[23:42:58.189] Comm Close - 4
+[23:42:58.189] Comm Close - 5
+[23:42:58.189] Comm Close - 6
+[23:42:58.189] Communication_Close Finish
+[23:42:58.194] 
+[23:42:58.194] ▷▶ Inspect Name(IBU)
+[23:42:58.194] 
+[23:42:58.194] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_BDC_MOBIS_1009001_F0 ) SystemID(ibu) Tidle(9999) P2Min(1000) AckCount(0)
+[23:42:58.275] Req : 07A0021003
+[23:42:58.312] Res : 07A85003003201F4
+[23:42:58.477] Communication_Open Result(SUCCESS)
+[23:43:00.478] ▶ Current Data_Set(08050E98)-> (R483)
+[23:43:00.543] Req : 07A00322B003
+[23:43:00.610] Res : 07A862B003761D1C580E002808
+[23:43:00.610] ▶ Current Data_Read (SUCCESS) -> [ON,]
+[23:43:00.612] ▶ Communication_Close(08050E98)-> ( LX3_BDC_MOBIS_1009001_F0 )
+[23:43:00.612] ▶ Close Working - TestingLog
+[23:43:00.612] Req : 07A0021001
+[23:43:00.650] Res : 07A85001003201F4
+[23:43:00.650] TxRxComp
+[23:43:00.650] Comm Close - 0
+[23:43:00.651] Comm Close - 1
+[23:43:00.651] Comm Close - 2
+[23:43:00.652] Comm Close - 3
+[23:43:00.653] Comm Close - 4
+[23:43:00.653] Comm Close - 5
+[23:43:00.653] Comm Close - 6
+[23:43:00.653] Communication_Close Finish
+[23:43:00.657] 
+[23:43:00.657] ▷▶ Inspect Name(RR_C_RDR_C)
+[23:43:00.657] 
+[23:43:00.657] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_RR-C-RADAR_APTIV_1006401_F0 ) SystemID(bsd) Tidle(9999) P2Min(300) AckCount(9999)
+[23:43:00.695] Req : 07B7021003
+[23:43:00.733] Res : 07BF5003003201F4
+[23:43:00.898] Communication_Open Result(SUCCESS)
+[23:43:00.898] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:00.933] Req(00): 07B7022711
+[23:43:00.994] Res    : 07BF6711C8A7A413829DDF8D
+[23:43:01.529] Req(00): 07B70A271255F986C5859B230A
+[23:43:01.608] Res    : 07BF6712
+[23:43:02.109] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:02.121] Complete Callback (054046EE)
+[23:43:02.239] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (0), Write Param (80030000)
+[23:43:02.274] Req(01): 07B7072EFD1080030000
+[23:43:02.307] Res    : 07BF6EFD10
+[23:43:02.307] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:02.320] Complete Callback (054046EE)
+[23:43:02.973] ▶ DTC Erase_Start(08050E98)
+[23:43:02.976] Req : 07B70414FFFFFF
+[23:43:03.033] Res : 07BF54
+[23:43:03.033] DTC Erase_Result (SUCCESS)
+[23:43:03.635] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (16500), Param (0), Write Param ()
+[23:43:03.670] Req(00): 07B7021101
+[23:43:03.708] Res    : 07BF5101
+[23:43:03.708] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:03.720] Complete Callback (054046EE)
+[23:43:05.268] ▶ Communication_Close(08050E98)-> ( LX3_RR-C-RADAR_APTIV_1006401_F0 )
+[23:43:05.268] ▶ Close Working - TestingLog
+[23:43:05.268] Req : 07B7021001
+[23:43:05.323] Res : 07BF5001003201F4
+[23:43:05.323] TxRxComp
+[23:43:05.323] Comm Close - 0
+[23:43:05.324] Comm Close - 1
+[23:43:05.325] Comm Close - 2
+[23:43:05.325] Comm Close - 3
+[23:43:05.325] Comm Close - 4
+[23:43:05.325] Comm Close - 5
+[23:43:05.326] Comm Close - 6
+[23:43:05.326] Communication_Close Finish
+[23:43:05.329] 
+[23:43:05.329] ▷▶ Inspect Name(FR_CMR_C)
+[23:43:05.330] 
+[23:43:05.330] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_FR-CMR_HL_1003606_F0 ) SystemID(FR_CMR_C) Tidle(9999) P2Min(300) AckCount(9999)
+[23:43:05.357] Req : 07C4021003
+[23:43:05.395] Res : 07CC5003003201F4
+[23:43:05.560] Communication_Open Result(SUCCESS)
+[23:43:05.560] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:05.594] Req(00): 07C4022711
+[23:43:05.675] Res    : 07CC671113995AC017EEF1C4
+[23:43:06.210] Req(00): 07C40A2712793C74CEBCFF0E85
+[23:43:06.285] Res    : 07CC6712
+[23:43:06.786] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:06.798] Complete Callback (054046EE)
+[23:43:06.901] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20105), Param (0), Write Param (02)
+[23:43:06.936] Req(00): 07C4042E010302
+[23:43:07.005] Res    : 07CC6E0103
+[23:43:07.005] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:07.017] Complete Callback (054046EE)
+[23:43:07.135] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (0), Write Param (4701020061400120)
+[23:43:07.169] Req(00): 07C40B2EC0DE4701020061400120
+[23:43:09.057] Res    : 07CC6EC0DE
+[23:43:09.058] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:09.070] Complete Callback (054046EE)
+[23:43:09.782] ▶ Communication_Close(08050E98)-> ( LX3_FR-CMR_HL_1003606_F0 )
+[23:43:09.782] ▶ Close Working - TestingLog
+[23:43:09.782] Req : 07C4021001
+[23:43:09.825] Res : 07CC5001003201F4
+[23:43:09.825] TxRxComp
+[23:43:09.825] Comm Close - 0
+[23:43:09.826] Comm Close - 1
+[23:43:09.826] Comm Close - 2
+[23:43:09.827] Comm Close - 3
+[23:43:09.827] Comm Close - 4
+[23:43:09.827] Comm Close - 5
+[23:43:09.827] Comm Close - 6
+[23:43:09.827] Communication_Close Finish
+[23:43:09.845] 
+[23:43:09.847] ▷▶ Inspect Name(TCU)
+[23:43:09.848] 
+[23:43:09.848] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3-HEV_TCU-6AT_KEPICO_202504_F0 ) SystemID(tr) Tidle(9999) P2Min(300) AckCount(0)
+[23:43:09.891] Req : 07E1021003
+[23:43:09.923] Res : 07E95003003201F4
+[23:43:10.085] Communication_Open Result(SUCCESS)
+[23:43:10.085] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (19350), Param (0), Write Param (485253414133303031393839314C413197788788A8898898778887785577755766677674AA124FFA1C93)
+[23:43:10.120] Req(00): 07E12E3101F005485253414133303031393839314C413197788788A8898898778887785577755766677674AA124FFA1C93
+[23:43:10.273] Res    : 07E97101F005
+[23:43:10.274] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:10.286] Complete Callback (054046EE)
+[23:43:11.320] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (16500), Param (0), Write Param ()
+[23:43:11.355] Req(00): 07E1043101F006
+[23:43:11.382] Res    : 07E97101F00601
+[23:43:11.383] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:11.395] Complete Callback (054046EE)
+[23:43:13.956] 
+[23:43:13.957] ▷▶ Inspect Name(TCU)
+[23:43:13.957] 
+[23:43:13.957] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3-HEV_TCU-6AT_KEPICO_202504_F0 ) SystemID(tr) Tidle(9999) P2Min(300) AckCount(0)
+[23:43:13.997] Req : 07E1021003
+[23:43:14.027] Res : 07E95003003201F4
+[23:43:14.189] Communication_Open Result(SUCCESS)
+[23:43:14.189] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (12500), Param (0), Write Param ()
+[23:43:14.224] Req(00): 07E1021141
+[23:43:14.252] Res    : 07E95141
+[23:43:14.252] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:14.264] Complete Callback (054046EE)
+[23:43:14.322] ▶ DTC Erase_Start(08050E98)
+[23:43:14.325] Req : 07E10414FFFFFF
+[23:43:14.354] Fail Response(NEGATIVE RESPONSE)(16384) : 07E97F1411
+[23:43:14.357] Req : 07E10414FFFFFF
+[23:43:14.384] Fail Response(NEGATIVE RESPONSE)(16384) : 07E97F1411
+[23:43:14.387] Req : 07E10414FFFFFF
+[23:43:14.414] Fail Response(NEGATIVE RESPONSE)(16384) : 07E97F1411
+[23:43:14.414] DTC Erase_Result (NEGATIVE RESPONSE), Negative Res - INDEX (2000), SID (14), STATUS (11), DESC (DTC_ERASE)
+[23:43:14.415] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (110000), Param (0), Write Param ()
+[23:43:14.450] Req(00): 07DF0104
+[23:43:14.573] Res    : 07E944
+[23:43:14.574] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:14.586] Complete Callback (054046EE)
+[23:43:14.648] ▶ Communication_Close(08050E98)-> ( LX3-HEV_TCU-6AT_KEPICO_202504_F0 )
+[23:43:14.648] ▶ Close Working - TestingLog
+[23:43:14.649] Req : 07E1021001
+[23:43:14.684] Res : 07E95001003201F4
+[23:43:14.684] TxRxComp
+[23:43:14.684] Comm Close - 0
+[23:43:14.685] Comm Close - 1
+[23:43:14.685] Comm Close - 2
+[23:43:14.688] Comm Close - 3
+[23:43:14.688] Comm Close - 4
+[23:43:14.688] Comm Close - 5
+[23:43:14.688] Comm Close - 6
+[23:43:14.689] Communication_Close Finish
+[23:43:14.693] 
+[23:43:14.693] ▷▶ Inspect Name(VIN)
+[23:43:14.694] 
+[23:43:14.694] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ENG-THETA3-2.5TGDI_VITESCO_202307_F0 ) SystemID(en) Tidle(9999) P2Min(300) AckCount(9999)
+[23:43:14.796] Req : 07E0021003
+[23:43:15.116] Error Res(RECV_CAN_TIMEOUT) : 
+[23:43:15.116] Req : 07E0021003
+[23:43:15.436] Error Res(RECV_CAN_TIMEOUT) : 
+[23:43:15.436] Communication_Open Fail!!!(RECV_CAN_TIMEOUT)(1000020)
+[23:43:15.437] ▷ CheckDLCCable(08050E98)
+[23:43:15.457] CheckDLCCable Result (256) - Status (1)
+[23:43:15.960] 
+[23:43:15.960] ▷▶ Inspect Name(VIN)
+[23:43:15.960] 
+[23:43:15.960] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ENG-THETA3-2.5TGDI_VITESCO_202307_F0 ) SystemID(en) Tidle(9999) P2Min(300) AckCount(9999)
+[23:43:16.064] Req : 07E0021003
+[23:43:16.104] Res : 07E85003003201F4
+[23:43:16.269] Communication_Open Result(SUCCESS)
+[23:43:16.269] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (10100), Param (0), Write Param ()
+[23:43:16.304] Req(00): 07E00322F190
+[23:43:16.365] Res    : 07E862F1903F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F
+[23:43:16.365] AuxFunction_Result (AUX_RESULT_OK) [?????????????????]
+[23:43:16.378] Complete Callback (054046EE)
+[23:43:16.503] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:16.537] Req(00): 07E0022711
+[23:43:16.585] Res    : 07E86711CDB28678F102E7E8
+[23:43:17.120] Req(00): 07E00A27124BA05BBBAD3E38AD
+[23:43:17.175] Res    : 07E86712
+[23:43:17.675] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:17.687] Complete Callback (054046EE)
+[23:43:17.745] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (12800), Param (0), Write Param (KM8RMESA4SU000377)
+[23:43:17.785] Req(10): 07E0142EF1904b4d38524d455341345355303030333737
+[23:43:17.855] Res    : 07E86EF190
+[23:43:17.889] Req(06): 07E00322E090
+[23:43:17.945] Res    : 07E862E0904B4D38524D455341345355303030333737
+[23:43:17.945] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:17.958] Complete Callback (054046EE)
+[23:43:18.078] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (12810), Param (0), Write Param ()
+[23:43:18.113] Req(00): 07E004310102E1
+[23:43:18.144] Res    : 07E8710102E1
+[23:43:18.145] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:18.157] Complete Callback (054046EE)
+[23:43:18.211] ▶ Communication_Close(08050E98)-> ( LX3_ENG-THETA3-2.5TGDI_VITESCO_202307_F0 )
+[23:43:18.211] ▶ Close Working - TestingLog
+[23:43:18.211] Req : 07E0021001
+[23:43:18.255] Res : 07E85001003201F4
+[23:43:18.255] TxRxComp
+[23:43:18.255] Comm Close - 0
+[23:43:18.256] Comm Close - 1
+[23:43:18.256] Comm Close - 2
+[23:43:18.262] Comm Close - 3
+[23:43:18.262] Comm Close - 4
+[23:43:18.263] Comm Close - 5
+[23:43:18.263] Comm Close - 6
+[23:43:18.263] Communication_Close Finish
+[23:43:18.267] 
+[23:43:18.267] ▷▶ Inspect Name(ECU)
+[23:43:18.267] 
+[23:43:18.267] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ENG-THETA3-2.5TGDI_VITESCO_202307_F0 ) SystemID(en) Tidle(9999) P2Min(300) AckCount(0)
+[23:43:18.366] Req : 07E0021003
+[23:43:18.404] Res : 07E85003003201F4
+[23:43:18.569] Communication_Open Result(SUCCESS)
+[23:43:18.569] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (110000), Param (0), Write Param ()
+[23:43:18.604] Req(00): 07DF0104
+[23:43:19.654] Res    : 07E844
+[23:43:19.655] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:19.667] Complete Callback (054046EE)
+[23:43:20.111] ▶ Communication_Close(08050E98)-> ( LX3_ENG-THETA3-2.5TGDI_VITESCO_202307_F0 )
+[23:43:20.111] ▶ Close Working - TestingLog
+[23:43:20.112] Req : 07E0021001
+[23:43:20.155] Res : 07E85001003201F4
+[23:43:20.155] TxRxComp
+[23:43:20.155] Comm Close - 0
+[23:43:20.156] Comm Close - 1
+[23:43:20.156] Comm Close - 2
+[23:43:20.161] Comm Close - 3
+[23:43:20.161] Comm Close - 4
+[23:43:20.161] Comm Close - 5
+[23:43:20.162] Comm Close - 6
+[23:43:20.162] Communication_Close Finish
+[23:43:20.165] 
+[23:43:20.166] ▷▶ Inspect Name(VPC)
+[23:43:20.166] 
+[23:43:20.166] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3-HEV_VPC_HMC_1001701_F0 ) SystemID(ds) Tidle(9999) P2Min(3000) AckCount(9999)
+[23:43:20.195] Req : 07E2021003
+[23:43:20.242] Res : 07EA5003003201F4
+[23:43:20.407] Communication_Open Result(SUCCESS)
+[23:43:20.407] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:20.912] Req(00): 07E2022711
+[23:43:20.963] Res    : 07EA67113D7828341C5EB3C8
+[23:43:20.997] Req(00): 07E20A27125E4D74A2C5D5F20F
+[23:43:21.042] Res    : 07EA6712
+[23:43:21.043] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:21.055] Complete Callback (054046EE)
+[23:43:21.144] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20105), Param (0), Write Param (73724006)
+[23:43:21.179] Req(00): 07E2072EC0DE73724006
+[23:43:21.213] Res    : 07EA6EC0DE
+[23:43:21.213] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:21.226] Complete Callback (054046EE)
+[23:43:21.277] ▶ DTC Erase_Start(08050E98)
+[23:43:21.280] Req : 07E20414FFFFFF
+[23:43:21.313] Fail Response(NEGATIVE RESPONSE)(16384) : 07EA7F1411
+[23:43:21.316] Req : 07E20414FFFFFF
+[23:43:21.342] Fail Response(NEGATIVE RESPONSE)(16384) : 07EA7F1411
+[23:43:21.345] Req : 07E20414FFFFFF
+[23:43:21.373] Fail Response(NEGATIVE RESPONSE)(16384) : 07EA7F1411
+[23:43:21.373] DTC Erase_Result (NEGATIVE RESPONSE), Negative Res - INDEX (2000), SID (14), STATUS (11), DESC (DTC_ERASE)
+[23:43:21.374] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (110000), Param (0), Write Param ()
+[23:43:21.408] Req(00): 07DF0104
+[23:43:22.453] Res    : 07EA44
+[23:43:22.454] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:22.466] Complete Callback (054046EE)
+[23:43:22.514] ▶ Communication_Close(08050E98)-> ( LX3-HEV_VPC_HMC_1001701_F0 )
+[23:43:22.514] ▶ Close Working - TestingLog
+[23:43:22.515] Req : 07E2021001
+[23:43:22.562] Res : 07EA5001003201F4
+[23:43:22.563] TxRxComp
+[23:43:22.563] Comm Close - 0
+[23:43:22.564] Comm Close - 1
+[23:43:22.564] Comm Close - 2
+[23:43:22.566] Comm Close - 3
+[23:43:22.566] Comm Close - 4
+[23:43:22.566] Comm Close - 5
+[23:43:22.566] Comm Close - 6
+[23:43:22.566] Communication_Close Finish
+[23:43:22.570] 
+[23:43:22.570] ▷▶ Inspect Name(BDC)
+[23:43:22.571] 
+[23:43:22.571] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_BDC_MOBIS_1009001_F0 ) SystemID(mlm) Tidle(9999) P2Min(2000) AckCount(9999)
+[23:43:22.653] Req : 07A0021003
+[23:43:22.693] Res : 07A85003003201F4
+[23:43:22.857] Communication_Open Result(SUCCESS)
+[23:43:22.857] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:22.892] Req(00): 07A0022711
+[23:43:22.954] Res    : 07A86711ABAF3C13E472757F
+[23:43:22.988] Req(00): 07A00A271226A64C8E32E182AB
+[23:43:23.050] Res    : 07A86712
+[23:43:23.051] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:23.063] Complete Callback (054046EE)
+[23:43:23.191] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20105), Param (0), Write Param (6237159D8E0E3B00)
+[23:43:23.226] Req(01): 07A00B2E04026237159D8E0E3B00
+[23:43:23.639] Res    : 07A86E0402
+[23:43:23.639] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:23.652] Complete Callback (054046EE)
+[23:43:25.729] ▶ DTC Erase_Start(08050E98)
+[23:43:25.732] Req : 07A00414FFFFFF
+[23:43:25.782] Res : 07A854
+[23:43:25.782] DTC Erase_Result (SUCCESS)
+[23:43:25.782] ▶ Communication_Close(08050E98)-> ( LX3_BDC_MOBIS_1009001_F0 )
+[23:43:25.782] ▶ Close Working - TestingLog
+[23:43:25.783] Req : 07A0021001
+[23:43:25.821] Res : 07A85001003201F4
+[23:43:25.822] TxRxComp
+[23:43:25.822] Comm Close - 0
+[23:43:25.823] Comm Close - 1
+[23:43:25.823] Comm Close - 2
+[23:43:25.827] Comm Close - 3
+[23:43:25.827] Comm Close - 4
+[23:43:25.827] Comm Close - 5
+[23:43:25.827] Comm Close - 6
+[23:43:25.827] Communication_Close Finish
+[23:43:25.831] 
+[23:43:25.831] ▷▶ Inspect Name(IAU)
+[23:43:25.832] 
+[23:43:25.832] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_BDC_MOBIS_1009001_F0 ) SystemID(mlm) Tidle(9999) P2Min(2000) AckCount(9999)
+[23:43:25.914] Req : 07A0021003
+[23:43:25.953] Res : 07A85003003201F4
+[23:43:26.118] Communication_Open Result(SUCCESS)
+[23:43:26.118] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:26.152] Req(00): 07A0022711
+[23:43:26.217] Res    : 07A86711A0CCA85FDCC36EBA
+[23:43:26.251] Req(00): 07A00A2712F17A7212550A0B74
+[23:43:26.312] Res    : 07A86712
+[23:43:26.312] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:26.325] Complete Callback (054046EE)
+[23:43:26.453] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (12800), Param (0), Write Param (KM8RMESA4SU000377)
+[23:43:26.494] Req(10): 07A0153101C1134b4d38524d455341345355303030333737
+[23:43:26.654] Res    : 07A87101C113
+[23:43:26.654] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:26.666] Complete Callback (054046EE)
+[23:43:26.787] ▶ Current Data_Set(08050E98)-> (R11929)
+[23:43:26.852] Req : 07A00322E00A
+[23:43:26.918] Res : 07A862E00AE0FC00000200
+[23:43:26.918] ▶ Current Data_Read (SUCCESS) -> [LEARNT,]
+[23:43:26.918] ▶ DTC Erase_Start(08050E98)
+[23:43:26.922] Req : 07A00414FFFFFF
+[23:43:26.972] Res : 07A854
+[23:43:26.972] DTC Erase_Result (SUCCESS)
+[23:43:26.973] ▶ Communication_Close(08050E98)-> ( LX3_BDC_MOBIS_1009001_F0 )
+[23:43:26.973] ▶ Close Working - TestingLog
+[23:43:26.973] Req : 07A0021001
+[23:43:27.012] Res : 07A85001003201F4
+[23:43:27.013] TxRxComp
+[23:43:27.013] Comm Close - 0
+[23:43:27.014] Comm Close - 1
+[23:43:27.014] Comm Close - 2
+[23:43:27.018] Comm Close - 3
+[23:43:27.018] Comm Close - 4
+[23:43:27.018] Comm Close - 5
+[23:43:27.019] Comm Close - 6
+[23:43:27.019] Communication_Close Finish
+[23:43:27.023] 
+[23:43:27.023] ▷▶ Inspect Name(ccNC)
+[23:43:27.023] 
+[23:43:27.023] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ccNC_MOBIS_2C0113_F0 ) SystemID(ds) Tidle(9999) P2Min(2000) AckCount(0)
+[23:43:27.058] Req : 0780021003
+[23:43:27.099] Res : 07885003003201F4
+[23:43:27.262] Communication_Open Result(SUCCESS)
+[23:43:27.262] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:27.296] Req(00): 0780022711
+[23:43:27.356] Res    : 078867117BDBB934A244FDD9
+[23:43:27.892] Req(00): 07800A27121F6E14FF289EA6BC
+[23:43:27.960] Res    : 07886712
+[23:43:28.460] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:28.472] Complete Callback (054046EE)
+[23:43:28.603] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (0), Write Param (1CE2C10401001204)
+[23:43:28.638] Req(00): 07800B2EC0DE1CE2C10401001204
+[23:43:28.691] Res    : 07886EC0DE
+[23:43:28.691] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:28.703] Complete Callback (054046EE)
+[23:43:28.736] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (16500), Param (0), Write Param ()
+[23:43:28.770] Req(00): 0780021101
+[23:43:31.039] Res    : 07885101
+[23:43:31.039] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:31.051] Complete Callback (054046EE)
+[23:43:33.086] ▶ DTC Erase_Start(08050E98)
+[23:43:33.089] Req : 07800414FFFFFF
+[23:43:33.156] Res : 078854
+[23:43:33.156] DTC Erase_Result (SUCCESS)
+[23:43:33.157] ▶ Communication_Close(08050E98)-> ( LX3_ccNC_MOBIS_2C0113_F0 )
+[23:43:33.157] ▶ Close Working - TestingLog
+[23:43:33.157] Req : 0780021001
+[23:43:33.196] Res : 07885001003201F4
+[23:43:33.196] TxRxComp
+[23:43:33.196] Comm Close - 0
+[23:43:33.197] Comm Close - 1
+[23:43:33.197] Comm Close - 2
+[23:43:33.201] Comm Close - 3
+[23:43:33.202] Comm Close - 4
+[23:43:33.202] Comm Close - 5
+[23:43:33.202] Comm Close - 6
+[23:43:33.202] Communication_Close Finish
+[23:43:33.206] 
+[23:43:33.206] ▷▶ Inspect Name(UWB_BLE_M)
+[23:43:33.207] 
+[23:43:33.207] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_UWB-BLE-M_MOBIS_1009601_F0 ) SystemID(aaa) Tidle(9999) P2Min(1000) AckCount(0)
+[23:43:33.221] Req : 0582021003
+[23:43:33.265] Res : 058A5003003201F4
+[23:43:33.431] Communication_Open Result(SUCCESS)
+[23:43:33.431] ▶ DTC Erase_Start(08050E98)
+[23:43:33.434] Req : 05820414FFFFFF
+[23:43:33.505] Res : 058A54
+[23:43:33.505] DTC Erase_Result (SUCCESS)
+[23:43:33.506] ▶ Communication_Close(08050E98)-> ( LX3_UWB-BLE-M_MOBIS_1009601_F0 )
+[23:43:33.506] ▶ Close Working - TestingLog
+[23:43:33.506] Req : 0582021001
+[23:43:33.546] Res : 058A5001003201F4
+[23:43:33.546] TxRxComp
+[23:43:33.546] Comm Close - 0
+[23:43:33.547] Comm Close - 1
+[23:43:33.547] Comm Close - 2
+[23:43:33.548] Comm Close - 3
+[23:43:33.548] Comm Close - 4
+[23:43:33.548] Comm Close - 5
+[23:43:33.548] Comm Close - 6
+[23:43:33.548] Communication_Close Finish
+[23:43:33.554] 
+[23:43:33.554] ▷▶ Inspect Name(MDPS)
+[23:43:33.554] 
+[23:43:33.554] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_R-MDPS_MOBIS_1003001_F0 ) SystemID(st) Tidle(9999) P2Min(800) AckCount(0)
+[23:43:33.581] Req : 07D4021003
+[23:43:33.612] Res : 07DC5003003201F4
+[23:43:33.776] Communication_Open Result(SUCCESS)
+[23:43:33.776] ▶ DTC Erase_Start(08050E98)
+[23:43:33.779] Req : 07D40414FFFFFF
+[23:43:34.026] Res : 07DC54
+[23:43:34.026] DTC Erase_Result (SUCCESS)
+[23:43:34.026] ▶ Communication_Close(08050E98)-> ( LX3_R-MDPS_MOBIS_1003001_F0 )
+[23:43:34.027] ▶ Close Working - TestingLog
+[23:43:34.027] Req : 07D4021001
+[23:43:34.061] Res : 07DC5001003201F4
+[23:43:34.061] TxRxComp
+[23:43:34.061] Comm Close - 0
+[23:43:34.062] Comm Close - 1
+[23:43:34.062] Comm Close - 2
+[23:43:34.063] Comm Close - 3
+[23:43:34.063] Comm Close - 4
+[23:43:34.063] Comm Close - 5
+[23:43:34.063] Comm Close - 6
+[23:43:34.064] Communication_Close Finish
+[23:43:34.067] 
+[23:43:34.068] ▷▶ Inspect Name(ACU)
+[23:43:34.068] 
+[23:43:34.068] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ACU_VEONEER_1000303_F0 ) SystemID(ab) Tidle(9999) P2Min(300) AckCount(0)
+[23:43:34.143] Req : 07D2021003
+[23:43:34.189] Res : 07DA5003003201F4
+[23:43:34.354] Communication_Open Result(SUCCESS)
+[23:43:34.354] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:34.388] Req(00): 07D2022711
+[23:43:34.440] Res    : 07DA6711FA01F98D86585CC4
+[23:43:34.976] Req(00): 07D20A27125A14DB3D760D4D51
+[23:43:35.039] Res    : 07DA6712
+[23:43:35.540] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:35.552] Complete Callback (054046EE)
+[23:43:35.594] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (14100), Param (0), Write Param ()
+[23:43:35.629] Req(00): 07D20322F101
+[23:43:35.669] Res    : 07DA62F10120202020
+[23:43:36.170] AuxFunction_Result (AUX_RESULT_OK) [    ]
+[23:43:36.182] Complete Callback (054046EE)
+[23:43:36.232] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (1), Write Param (DU11)
+[23:43:36.265] Req(01): 07D2072EF10144553131
+[23:43:36.288] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F2E22
+[23:43:36.310] AuxFunction_Result (NEGATIVE RESPONSE), Negative Res - INDEX (20100), SID (2E), STATUS (22), DESC (AUXFUNC)
+[23:43:36.322] Complete Callback (054046EE)
+[23:43:36.464] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (1), Write Param (DU11)
+[23:43:36.498] Req(01): 07D2072EF10144553131
+[23:43:36.530] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F2E22
+[23:43:36.552] AuxFunction_Result (NEGATIVE RESPONSE), Negative Res - INDEX (20100), SID (2E), STATUS (22), DESC (AUXFUNC)
+[23:43:36.564] Complete Callback (054046EE)
+[23:43:36.697] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (14300), Param (0), Write Param ()
+[23:43:36.732] Req(01): 07D2042EF10301
+[23:43:37.051] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:37.051] AuxFunction_Result Fail!!!(AUX_RESULT_NG) []
+[23:43:37.064] Complete Callback (054046EE)
+[23:43:37.233] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (14300), Param (0), Write Param ()
+[23:43:37.267] Req(01): 07D2042EF10301
+[23:43:37.584] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:37.584] AuxFunction_Result Fail!!!(AUX_RESULT_NG) []
+[23:43:37.596] Complete Callback (054046EE)
+[23:43:37.768] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (17300), Param (0), Write Param ()
+[23:43:37.802] Req(00): 07D2061906976200FF
+[23:43:37.879] Res    : 07DA590697620089FF01001500000000000100000000
+[23:43:38.381] AuxFunction_Result (AUX_RESULT_OK) [07DA590697620089FF010015000000000001000000]
+[23:43:38.393] Complete Callback (054046EE)
+[23:43:38.505] ▶ DTC Erase_Start(08050E98)
+[23:43:38.508] Req : 07D20414FFFFFF
+[23:43:38.539] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[23:43:38.542] Req : 07D20414FFFFFF
+[23:43:38.859] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:38.862] Req : 07D20414FFFFFF
+[23:43:39.180] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:39.180] DTC Erase_Result Fail!!!(RECV_CAN_TIMEOUT)
+[23:43:39.281] ▶ DTC Erase_Start(08050E98)
+[23:43:39.284] Req : 07D20414FFFFFF
+[23:43:39.602] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:39.605] Req : 07D20414FFFFFF
+[23:43:39.628] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[23:43:39.631] Req : 07D20414FFFFFF
+[23:43:39.658] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[23:43:39.659] DTC Erase_Result (NEGATIVE RESPONSE), Negative Res - INDEX (2000), SID (14), STATUS (22), DESC (DTC_ERASE)
+[23:43:39.760] ▶ Communication_Close(08050E98)-> ( LX3_ACU_VEONEER_1000303_F0 )
+[23:43:39.760] ▶ Close Working - TestingLog
+[23:43:39.760] Req : 07D2021001
+[23:43:39.802] Res : 07DA5001003201F4
+[23:43:39.802] TxRxComp
+[23:43:39.803] Comm Close - 0
+[23:43:39.804] Comm Close - 1
+[23:43:39.804] Comm Close - 2
+[23:43:39.805] Comm Close - 3
+[23:43:39.805] Comm Close - 4
+[23:43:39.805] Comm Close - 5
+[23:43:39.805] Comm Close - 6
+[23:43:39.805] Communication_Close Finish
+[23:43:39.810] 
+[23:43:39.810] ▷▶ Inspect Name(ACU)
+[23:43:39.810] 
+[23:43:39.810] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ACU_VEONEER_1000303_F0 ) SystemID(ab) Tidle(9999) P2Min(300) AckCount(0)
+[23:43:39.886] Req : 07D2021003
+[23:43:39.929] Res : 07DA5003003201F4
+[23:43:40.093] Communication_Open Result(SUCCESS)
+[23:43:40.093] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:40.128] Req(00): 07D2022711
+[23:43:40.190] Res    : 07DA6711EC3A7578584F9177
+[23:43:40.726] Req(00): 07D20A2712B4DF007B13B96454
+[23:43:40.779] Res    : 07DA6712
+[23:43:41.281] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:41.293] Complete Callback (054046EE)
+[23:43:41.335] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (14100), Param (0), Write Param ()
+[23:43:41.370] Req(00): 07D20322F101
+[23:43:41.410] Res    : 07DA62F10120202020
+[23:43:41.910] AuxFunction_Result (AUX_RESULT_OK) [    ]
+[23:43:41.922] Complete Callback (054046EE)
+[23:43:41.972] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (1), Write Param (DU11)
+[23:43:42.006] Req(01): 07D2072EF10144553131
+[23:43:42.029] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F2E22
+[23:43:42.051] AuxFunction_Result (NEGATIVE RESPONSE), Negative Res - INDEX (20100), SID (2E), STATUS (22), DESC (AUXFUNC)
+[23:43:42.063] Complete Callback (054046EE)
+[23:43:42.206] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (1), Write Param (DU11)
+[23:43:42.240] Req(01): 07D2072EF10144553131
+[23:43:42.273] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F2E22
+[23:43:42.295] AuxFunction_Result (NEGATIVE RESPONSE), Negative Res - INDEX (20100), SID (2E), STATUS (22), DESC (AUXFUNC)
+[23:43:42.307] Complete Callback (054046EE)
+[23:43:42.540] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (14300), Param (0), Write Param ()
+[23:43:42.574] Req(01): 07D2042EF10301
+[23:43:42.601] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F2E22
+[23:43:42.601] AuxFunction_Result (NEGATIVE RESPONSE), Negative Res - INDEX (14300), SID (2E), STATUS (22), DESC (AUXFUNC)
+[23:43:42.614] Complete Callback (054046EE)
+[23:43:42.773] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (14300), Param (0), Write Param ()
+[23:43:42.807] Req(01): 07D2042EF10301
+[23:43:42.829] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F2E22
+[23:43:42.830] AuxFunction_Result (NEGATIVE RESPONSE), Negative Res - INDEX (14300), SID (2E), STATUS (22), DESC (AUXFUNC)
+[23:43:42.842] Complete Callback (054046EE)
+[23:43:43.005] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (17300), Param (0), Write Param ()
+[23:43:43.039] Req(00): 07D2061906976200FF
+[23:43:43.119] Res    : 07DA590697620089FF01001500000000000100000000
+[23:43:43.621] AuxFunction_Result (AUX_RESULT_OK) [07DA590697620089FF010015000000000001000000]
+[23:43:43.633] Complete Callback (054046EE)
+[23:43:43.742] ▶ DTC Erase_Start(08050E98)
+[23:43:43.746] Req : 07D20414FFFFFF
+[23:43:43.770] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[23:43:43.773] Req : 07D20414FFFFFF
+[23:43:43.801] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[23:43:43.804] Req : 07D20414FFFFFF
+[23:43:43.829] Fail Response(NEGATIVE RESPONSE)(16384) : 07DA7F1422
+[23:43:43.829] DTC Erase_Result (NEGATIVE RESPONSE), Negative Res - INDEX (2000), SID (14), STATUS (22), DESC (DTC_ERASE)
+[23:43:43.931] ▶ DTC Erase_Start(08050E98)
+[23:43:43.934] Req : 07D20414FFFFFF
+[23:43:44.251] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:44.254] Req : 07D20414FFFFFF
+[23:43:44.571] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:44.574] Req : 07D20414FFFFFF
+[23:43:44.891] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:43:44.891] DTC Erase_Result Fail!!!(RECV_CAN_TIMEOUT)
+[23:43:44.993] ▶ Communication_Close(08050E98)-> ( LX3_ACU_VEONEER_1000303_F0 )
+[23:43:44.993] ▶ Close Working - TestingLog
+[23:43:44.993] Req : 07D2021001
+[23:43:45.029] Res : 07DA5001003201F4
+[23:43:45.030] TxRxComp
+[23:43:45.030] Comm Close - 0
+[23:43:45.031] Comm Close - 1
+[23:43:45.031] Comm Close - 2
+[23:43:45.037] Comm Close - 3
+[23:43:45.037] Comm Close - 4
+[23:43:45.037] Comm Close - 5
+[23:43:45.037] Comm Close - 6
+[23:43:45.037] Communication_Close Finish
+[23:43:45.041] 
+[23:43:45.041] ▷▶ Inspect Name(TPMS)
+[23:43:45.042] 
+[23:43:45.042] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_BDC-TPMS_MOBIS_1009003_F0 ) SystemID(ibu) Tidle(9999) P2Min(800) AckCount(0)
+[23:43:45.099] Req : 07A0021003
+[23:43:45.142] Res : 07A85003003201F4
+[23:43:45.306] Communication_Open Result(SUCCESS)
+[23:43:45.306] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:45.341] Req(00): 07A0022711
+[23:43:45.407] Res    : 07A86711CE1F5D700F552F86
+[23:43:45.441] Req(00): 07A00A27129E5F1103CF19C6DF
+[23:43:45.502] Res    : 07A86712
+[23:43:45.502] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:45.514] Complete Callback (054046EE)
+[23:43:45.742] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (12400), Param (0), Write Param (182C9EBB,182C9E92,1833F8F9,182F9080)
+[23:43:45.777] Req(04): 07A0132E0403182C9EBB182C9E921833F8F9182F9080
+[23:43:45.852] Res    : 07A86E0403
+[23:43:45.852] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:45.865] Complete Callback (054046EE)
+[23:43:48.477] ▶ DTC Erase_Start(08050E98)
+[23:43:48.480] Req : 07A00414FFFFFF
+[23:43:48.522] Res : 07A854
+[23:43:48.522] DTC Erase_Result (SUCCESS)
+[23:43:48.523] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (12900), Param (0), Write Param ()
+[23:43:48.557] Req(01): 07A00431011255
+[23:43:48.591] Res    : 07A871011255
+[23:43:48.592] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:48.604] Complete Callback (054046EE)
+[23:43:48.654] ▶ Communication_Close(08050E98)-> ( LX3_BDC-TPMS_MOBIS_1009003_F0 )
+[23:43:48.654] ▶ Close Working - TestingLog
+[23:43:48.654] Req : 07A0021001
+[23:43:48.692] Res : 07A85001003201F4
+[23:43:48.692] TxRxComp
+[23:43:48.692] Comm Close - 0
+[23:43:48.693] Comm Close - 1
+[23:43:48.693] Comm Close - 2
+[23:43:48.696] Comm Close - 3
+[23:43:48.696] Comm Close - 4
+[23:43:48.697] Comm Close - 5
+[23:43:48.697] Comm Close - 6
+[23:43:48.697] Communication_Close Finish
+[23:43:48.701] 
+[23:43:48.701] ▷▶ Inspect Name(BLTN_CAM)
+[23:43:48.701] 
+[23:43:48.701] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_BLTN-CAM_YURA_1007305_F0 ) SystemID(mlm) Tidle(9999) P2Min(1000) AckCount(0)
+[23:43:48.729] Req : 0795021003
+[23:43:48.768] Res : 079D5003003201F4
+[23:43:48.934] Communication_Open Result(SUCCESS)
+[23:43:48.934] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:48.968] Req(00): 0795022711
+[23:43:49.030] Res    : 079D671165C1A341161107F2
+[23:43:49.565] Req(00): 07950A2712537CB4C1E6DF29E4
+[23:43:49.614] Res    : 079D6712
+[23:43:50.115] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:50.127] Complete Callback (054046EE)
+[23:43:50.174] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (0), Write Param (0401)
+[23:43:50.209] Req(01): 0795052E12A20401
+[23:43:50.249] Res    : 079D6E12A2
+[23:43:50.271] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:50.283] Complete Callback (054046EE)
+[23:43:50.408] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20010), Param (0), Write Param ()
+[23:43:50.443] Req(00): 0795043101F002
+[23:43:50.490] Res    : 079D7101F002
+[23:43:50.491] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:50.503] Complete Callback (054046EE)
+[23:43:50.540] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20020), Param (0), Write Param ()
+[23:43:51.345] Req(00): 0795043103F002
+[23:43:51.371] Res    : 079D7103F00201
+[23:43:52.176] Req(00): 0795043103F002
+[23:43:52.202] Res    : 079D7103F00202
+[23:43:52.202] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:52.215] Complete Callback (054046EE)
+[23:43:52.286] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20030), Param (0), Write Param ()
+[23:43:52.319] Req(00): 0795043102F002
+[23:43:52.345] Res    : 079D7102F002
+[23:43:52.345] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:52.357] Complete Callback (054046EE)
+[23:43:52.417] ▶ Current Data_Set(08050E98)-> (R25440)
+[23:43:52.482] Req : 07950322A242
+[23:43:52.508] Res : 079D62A24200017282
+[23:43:52.509] ▶ Current Data_Read (SUCCESS) -> [ 4.85 ',]
+[23:43:52.509] ▶ Current Data_Set(08050E98)-> (R18992)
+[23:43:52.574] Req : 07950322A240
+[23:43:52.599] Res : 079D62A240000160C6
+[23:43:52.599] ▶ Current Data_Read (SUCCESS) -> [ 0.31 ',]
+[23:43:52.600] ▶ Current Data_Set(08050E98)-> (R18993)
+[23:43:52.665] Req : 07950322A241
+[23:43:52.690] Res : 079D62A24100015F68
+[23:43:52.690] ▶ Current Data_Read (SUCCESS) -> [-0.04 ',]
+[23:43:52.690] ▶ Current Data_Set(08050E98)-> (R18995)
+[23:43:52.754] Req : 07950322A243
+[23:43:52.780] Res : 079D62A24300
+[23:43:52.813] ▶ Current Data_Read (SUCCESS) -> [Calibration Success,]
+[23:43:52.814] ▶ DTC Erase_Start(08050E98)
+[23:43:52.817] Req : 07950414FFFFFF
+[23:43:52.843] Res : 079D54
+[23:43:52.843] DTC Erase_Result (SUCCESS)
+[23:43:52.844] ▶ Communication_Close(08050E98)-> ( LX3_BLTN-CAM_YURA_1007305_F0 )
+[23:43:52.844] ▶ Close Working - TestingLog
+[23:43:52.844] Req : 0795021001
+[23:43:52.885] Res : 079D5001003201F4
+[23:43:52.885] TxRxComp
+[23:43:52.885] Comm Close - 0
+[23:43:52.886] Comm Close - 1
+[23:43:52.886] Comm Close - 2
+[23:43:52.890] Comm Close - 3
+[23:43:52.890] Comm Close - 4
+[23:43:52.890] Comm Close - 5
+[23:43:52.890] Comm Close - 6
+[23:43:52.890] Communication_Close Finish
+[23:43:52.894] 
+[23:43:52.895] ▷▶ Inspect Name(FR_CMR)
+[23:43:52.895] 
+[23:43:52.895] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_FR-CMR_HL_1003606_F0 ) SystemID(ldws) Tidle(9999) P2Min(1000) AckCount(0)
+[23:43:52.922] Req : 07C4021003
+[23:43:52.965] Res : 07CC5003003201F4
+[23:43:53.129] Communication_Open Result(SUCCESS)
+[23:43:53.129] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:53.164] Req(00): 07C4022711
+[23:43:53.231] Res    : 07CC6711998293E2591E30E5
+[23:43:53.767] Req(00): 07C40A27125A2F8422C850A7C7
+[23:43:53.834] Res    : 07CC6712
+[23:43:54.336] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:54.348] Complete Callback (054046EE)
+[23:43:54.471] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (18905), Param (0), Write Param ()
+[23:43:54.506] Req(01): 07C4043101F002
+[23:43:54.547] Res    : 07CC7101F002
+[23:43:54.951] Req(02): 07C4043103F002
+[23:43:54.994] Res    : 07CC7103F0020300
+[23:43:55.398] Req(02): 07C4043103F002
+[23:43:55.435] Res    : 07CC7103F0020300
+[23:43:55.839] Req(02): 07C4043103F002
+[23:43:55.875] Res    : 07CC7103F0020300
+[23:43:56.279] Req(02): 07C4043103F002
+[23:43:56.315] Res    : 07CC7103F0020100
+[23:43:56.349] Req(03): 07C4043102F002
+[23:43:56.385] Res    : 07CC7102F002
+[23:43:56.385] AuxFunction_Result (AUX_RESULT_OK) [0100]
+[23:43:56.398] Complete Callback (054046EE)
+[23:43:57.019] ▶ Current Data_Set(08050E98)-> (A2070)
+[23:43:57.084] Req : 07C40322A040
+[23:43:57.153] Res : 07CC62A040009F00BD0159
+[23:43:57.154] ▶ Current Data_Read (SUCCESS) -> [   -1 Pixel,]
+[23:43:57.154] ▶ Current Data_Set(08050E98)-> (R6680)
+[23:43:57.218] Req : 07C40322A040
+[23:43:57.280] Res : 07CC62A040009F00BD0159
+[23:43:57.280] ▶ Current Data_Read (SUCCESS) -> [    0 Pixel,]
+[23:43:57.281] ▶ Current Data_Set(08050E98)-> (R6682)
+[23:43:57.345] Req : 07C40322A040
+[23:43:57.410] Res : 07CC62A040009F00BD0159
+[23:43:57.410] ▶ Current Data_Read (SUCCESS) -> [-0.0105 rad,]
+[23:43:57.411] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (16500), Param (0), Write Param ()
+[23:43:57.445] Req(00): 07C4021101
+[23:43:57.476] Res    : 07CC5101
+[23:43:57.476] AuxFunction_Result (AUX_RESULT_OK) []
+[23:43:57.489] Complete Callback (054046EE)
+[23:43:58.545] ▶ DTC Erase_Start(08050E98)
+[23:43:58.548] Req : 07C40414FFFFFF
+[23:43:58.712] Res : 07CC54
+[23:43:58.712] DTC Erase_Result (SUCCESS)
+[23:43:58.915] ▶ Communication_Close(08050E98)-> ( LX3_FR-CMR_HL_1003606_F0 )
+[23:43:58.915] ▶ Close Working - TestingLog
+[23:43:58.915] Req : 07C4021001
+[23:43:58.962] Res : 07CC5001003201F4
+[23:43:58.962] TxRxComp
+[23:43:58.962] Comm Close - 0
+[23:43:58.963] Comm Close - 1
+[23:43:58.963] Comm Close - 2
+[23:43:58.964] Comm Close - 3
+[23:43:58.964] Comm Close - 4
+[23:43:58.964] Comm Close - 5
+[23:43:58.964] Comm Close - 6
+[23:43:58.964] Communication_Close Finish
+[23:43:58.968] 
+[23:43:58.968] ▷▶ Inspect Name(ADAS_PRK)
+[23:43:58.968] 
+[23:43:58.968] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ADAS-PRK-MCU_MOBIS_1002805_F0 ) SystemID(svm) Tidle(9999) P2Min(300) AckCount(9999)
+[23:43:59.002] Req : 07B1021003
+[23:43:59.059] Res : 07B95003003201F4
+[23:43:59.224] Communication_Open Result(SUCCESS)
+[23:43:59.224] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:43:59.259] Req(00): 07B1022711
+[23:43:59.342] Res    : 07B96711A3E212D5957E0D5C
+[23:43:59.877] Req(00): 07B10A27122623D674CFEF39CC
+[23:43:59.947] Res    : 07B96712
+[23:44:00.449] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:00.461] Complete Callback (054046EE)
+[23:44:00.566] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20100), Param (0), Write Param (11284645)
+[23:44:00.600] Req(01): 07B1072E01E011284645
+[23:44:00.666] Res    : 07B96E01E0
+[23:44:00.687] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:00.699] Complete Callback (054046EE)
+[23:44:00.799] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (16500), Param (0), Write Param ()
+[23:44:00.834] Req(00): 07B1021101
+[23:44:00.877] Res    : 07B95101
+[23:44:00.878] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:00.890] Complete Callback (054046EE)
+[23:44:01.935] 
+[23:44:01.935] ▷▶ Inspect Name(ADAS_PRK)
+[23:44:01.936] 
+[23:44:01.936] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ADAS-PRK-MCU_MOBIS_1002805_F0 ) SystemID(svm) Tidle(9999) P2Min(300) AckCount(9999)
+[23:44:01.967] Req : 07B1021003
+[23:44:02.287] Error Res(RECV_CAN_TIMEOUT) : 
+[23:44:02.288] Req : 07B1021003
+[23:44:02.608] Error Res(RECV_CAN_TIMEOUT) : 
+[23:44:02.608] Communication_Open Fail!!!(RECV_CAN_TIMEOUT)(1000020)
+[23:44:02.609] ▷ CheckDLCCable(08050E98)
+[23:44:02.629] CheckDLCCable Result (256) - Status (1)
+[23:44:03.133] 
+[23:44:03.133] ▷▶ Inspect Name(ADAS_PRK)
+[23:44:03.133] 
+[23:44:03.133] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ADAS-PRK-MCU_MOBIS_1002805_F0 ) SystemID(svm) Tidle(9999) P2Min(300) AckCount(9999)
+[23:44:03.164] Req : 07B1021003
+[23:44:03.210] Res : 07B95003003201F4
+[23:44:03.375] Communication_Open Result(SUCCESS)
+[23:44:03.376] ▶ DTC Erase_Start(08050E98)
+[23:44:03.380] Req : 07B10414FFFFFF
+[23:44:05.432] Res : 07B954
+[23:44:05.432] DTC Erase_Result (SUCCESS)
+[23:44:05.432] ▶ Communication_Close(08050E98)-> ( LX3_ADAS-PRK-MCU_MOBIS_1002805_F0 )
+[23:44:05.433] ▶ Close Working - TestingLog
+[23:44:05.433] Req : 07B1021001
+[23:44:05.480] Res : 07B95001003201F4
+[23:44:05.480] TxRxComp
+[23:44:05.480] Comm Close - 0
+[23:44:05.481] Comm Close - 1
+[23:44:05.481] Comm Close - 2
+[23:44:05.482] Comm Close - 3
+[23:44:05.482] Comm Close - 4
+[23:44:05.482] Comm Close - 5
+[23:44:05.482] Comm Close - 6
+[23:44:05.482] Communication_Close Finish
+[23:44:05.497] 
+[23:44:05.497] ▷▶ Inspect Name(ABS)
+[23:44:05.497] 
+[23:44:05.497] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3-HEV_IEB_MOBIS_1002101_F0 ) SystemID(br) Tidle(9999) P2Min(300) AckCount(0)
+[23:44:05.547] Req : 07E7021003
+[23:44:05.572] Res : 07EF5003002D00C8
+[23:44:05.737] Communication_Open Result(SUCCESS)
+[23:44:05.737] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:44:05.772] Req(00): 07E7022711
+[23:44:05.820] Res    : 07EF671192A0ED70F2BA8EC0
+[23:44:06.355] Req(00): 07E70A2712C99EAE7E7921974C
+[23:44:06.402] Res    : 07EF6712
+[23:44:06.902] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:06.914] Complete Callback (054046EE)
+[23:44:06.977] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20105), Param (0), Write Param (3800088000440840)
+[23:44:07.012] Req(00): 07E70B2E01063800088000440840
+[23:44:07.065] Res    : 07EF6E0106
+[23:44:07.066] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:07.078] Complete Callback (054046EE)
+[23:44:07.110] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (14000), Param (0), Write Param ()
+[23:44:07.145] Req(01): 07E7042E010501
+[23:44:07.665] Res    : 07EF6E0105
+[23:44:08.166] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:08.178] Complete Callback (054046EE)
+[23:44:09.251] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (16500), Param (0), Write Param ()
+[23:44:09.286] Req(00): 07E7021101
+[23:44:09.317] Res    : 07EF5101
+[23:44:09.317] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:09.329] Complete Callback (054046EE)
+[23:44:12.387] 
+[23:44:12.387] ▷▶ Inspect Name(ABS)
+[23:44:12.388] 
+[23:44:12.388] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3-HEV_IEB_MOBIS_1002101_F0 ) SystemID(br) Tidle(9999) P2Min(300) AckCount(0)
+[23:44:12.431] Req : 07E7021003
+[23:44:12.460] Res : 07EF5003002D00C8
+[23:44:12.625] Communication_Open Result(SUCCESS)
+[23:44:12.625] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (15300), Param (0), Write Param ()
+[23:44:12.660] Req(01): 07E70531010201FF
+[23:44:13.266] Res    : 07EF7101020102
+[23:44:13.810] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:13.822] Complete Callback (054046EE)
+[23:44:17.867] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (17900), Param (0), Write Param ()
+[23:44:17.902] Req(00): 07E70531010204FF
+[23:44:18.166] Res    : 07EF7101020402
+[23:44:18.167] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:18.179] Complete Callback (054046EE)
+[23:44:18.302] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (18000), Param (0), Write Param ()
+[23:44:18.337] Req(00): 07E70531010203FF
+[23:44:18.858] Res    : 07EF7101020302
+[23:44:18.858] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:18.869] Complete Callback (054046EE)
+[23:44:21.939] ▶ DTC Erase_Start(08050E98)
+[23:44:21.942] Req : 07E70414FFFFFF
+[23:44:22.802] Res : 07EF54
+[23:44:22.803] DTC Erase_Result (SUCCESS)
+[23:44:23.804] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (100000), Param (0), Write Param ()
+[23:44:23.839] Req(00): 07E7022711
+[23:44:23.884] Res    : 07EF67116057AED2B7FA5237
+[23:44:24.420] Req(00): 07E70A2712DE8254114EE7D710
+[23:44:24.472] Res    : 07EF6712
+[23:44:24.974] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:24.986] Complete Callback (054046EE)
+[23:44:25.045] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (20110), Param (0), Write Param (01)
+[23:44:25.080] Req(00): 07E7042E010901
+[23:44:25.103] Res    : 07EF6E0109
+[23:44:25.103] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:25.116] Complete Callback (054046EE)
+[23:44:25.178] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (19505), Param (0), Write Param (01)
+[23:44:25.213] Req(00): 07E703220106
+[23:44:25.260] Res    : 07EF6201063800088000440840
+[23:44:25.260] AuxFunction_Result (AUX_RESULT_OK) [3800088000440840]
+[23:44:25.272] Complete Callback (054046EE)
+[23:44:25.310] ▶ Communication_Close(08050E98)-> ( LX3-HEV_IEB_MOBIS_1002101_F0 )
+[23:44:25.310] ▶ Close Working - TestingLog
+[23:44:25.311] Req : 07E7021001
+[23:44:25.337] Res : 07EF5001002D00C8
+[23:44:25.337] TxRxComp
+[23:44:25.337] Comm Close - 0
+[23:44:25.338] Comm Close - 1
+[23:44:25.338] Comm Close - 2
+[23:44:25.343] Comm Close - 3
+[23:44:25.343] Comm Close - 4
+[23:44:25.343] Comm Close - 5
+[23:44:25.343] Comm Close - 6
+[23:44:25.343] Communication_Close Finish
+[23:44:25.357] 
+[23:44:25.357] ▷▶ Inspect Name(PRK_ERASE)
+[23:44:25.358] 
+[23:44:25.358] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( LX3_ADAS-PRK-MCU_MOBIS_1002805_F0 ) SystemID(svm) Tidle(9999) P2Min(500) AckCount(0)
+[23:44:25.391] Req : 07B1021003
+[23:44:25.441] Res : 07B95003003201F4
+[23:44:25.605] Communication_Open Result(SUCCESS)
+[23:44:25.605] ▶ DTC Erase_Start(08050E98)
+[23:44:25.608] Req : 07B10414FFFFFF
+[23:44:25.831] Res : 07B954
+[23:44:25.831] DTC Erase_Result (SUCCESS)
+[23:44:25.832] ▶ Communication_Close(08050E98)-> ( LX3_ADAS-PRK-MCU_MOBIS_1002805_F0 )
+[23:44:25.832] ▶ Close Working - TestingLog
+[23:44:25.833] Req : 07B1021001
+[23:44:25.882] Res : 07B95001003201F4
+[23:44:25.882] TxRxComp
+[23:44:25.883] Comm Close - 0
+[23:44:25.884] Comm Close - 1
+[23:44:25.884] Comm Close - 2
+[23:44:25.884] Comm Close - 3
+[23:44:25.885] Comm Close - 4
+[23:44:25.885] Comm Close - 5
+[23:44:25.885] Comm Close - 6
+[23:44:25.885] Communication_Close Finish
+[23:44:25.889] 
+[23:44:25.889] ▷▶ Inspect Name(DTC_ALL)
+[23:44:25.889] 
+[23:44:25.889] ▷ Communication_Open(08050E98)-> MakerID(HY) EcuID( FUNC_DTC_F0 ) SystemID(ETC) Tidle(9999) P2Min(1000) AckCount(9999)
+[23:44:25.905] ▶ AuxFunction_Start NRC(08050E98)-> Aux : Index (21220), Param (0), Write Param ()
+[23:44:25.941] Req(00): 07DF021090
+[23:44:26.943] Fail Response(RECV_CAN_TIMEOUT)(1000020) : 
+[23:44:26.977] Req(00): 07DF0314FF00
+[23:44:26.984] Fail Response(NEGATIVE RESPONSE)(16384) : 07BE7F1413
+[23:44:27.019] Req(01): 07DF021003
+[23:44:27.020] Fail Response(NEGATIVE RESPONSE)(16384) : 07CE7F1413
+[23:44:27.054] Req(01): 07DF0414FFFFFF
+[23:44:27.055] Res    : 079F5003003201F4
+[23:44:27.055] AuxFunction_Result (AUX_RESULT_OK) []
+[23:44:27.068] Complete Callback (054046EE)
+[23:44:27.152] ▷ CheckDLCCable(08050E98)
+[23:44:27.172] CheckDLCCable Result (256) - Status (1)
+[23:44:27.986] ▷ CheckDLCCable(08050E98)
+[23:44:28.006] CheckDLCCable Result (256) - Status (1)
+[23:44:28.816] ▷ CheckDLCCable(08050E98)
+[23:44:28.836] CheckDLCCable Result (256) - Status (1)
+[23:44:29.642] ▷ CheckDLCCable(08050E98)
+[23:44:29.662] CheckDLCCable Result (256) - Status (1)
+[23:44:30.471] ▷ CheckDLCCable(08050E98)
+[23:44:30.491] CheckDLCCable Result (256) - Status (1)
+[23:44:31.300] ▷ CheckDLCCable(08050E98)
+[23:44:31.321] CheckDLCCable Result (256) - Status (1)
+[23:44:32.128] ▷ CheckDLCCable(08050E98)
+[23:44:32.148] CheckDLCCable Result (256) - Status (1)
+[23:44:32.957] ▷ CheckDLCCable(08050E98)
+[23:44:32.977] CheckDLCCable Result (256) - Status (1)
+[23:44:33.785] ▷ CheckDLCCable(08050E98)
+[23:44:33.805] CheckDLCCable Result (256) - Status (1)
+[23:44:34.611] ▷ CheckDLCCable(08050E98)
+[23:44:34.631] CheckDLCCable Result (256) - Status (1)
+[23:44:35.439] ▷ CheckDLCCable(08050E98)
+[23:44:35.459] CheckDLCCable Result (256) - Status (1)
+[23:44:36.267] ▷ CheckDLCCable(08050E98)
+[23:44:36.287] CheckDLCCable Result (256) - Status (1)
+[23:44:37.096] ▷ CheckDLCCable(08050E98)
+[23:44:37.117] CheckDLCCable Result (256) - Status (1)
+[23:44:37.924] ▷ CheckDLCCable(08050E98)
+[23:44:37.943] CheckDLCCable Result (256) - Status (1)
+[23:44:38.751] ▷ CheckDLCCable(08050E98)
+[23:44:38.771] CheckDLCCable Result (256) - Status (1)
+[23:44:39.581] ▷ CheckDLCCable(08050E98)
+[23:44:39.601] CheckDLCCable Result (256) - Status (1)
+[23:44:40.409] ▷ CheckDLCCable(08050E98)
+[23:44:40.430] CheckDLCCable Result (256) - Status (1)
+[23:44:41.238] ▷ CheckDLCCable(08050E98)
+[23:44:41.258] CheckDLCCable Result (256) - Status (1)
+[23:44:42.064] ▷ CheckDLCCable(08050E98)
+[23:44:42.084] CheckDLCCable Result (256) - Status (1)
+[23:44:42.892] ▷ CheckDLCCable(08050E98)
+[23:44:42.912] CheckDLCCable Result (256) - Status (1)
+[23:44:43.721] ▷ CheckDLCCable(08050E98)
+[23:44:43.741] CheckDLCCable Result (256) - Status (1)
+[23:44:44.548] ▷ CheckDLCCable(08050E98)
+[23:44:44.568] CheckDLCCable Result (256) - Status (1)
+[23:44:45.379] ▷ CheckDLCCable(08050E98)
+[23:44:45.399] CheckDLCCable Result (256) - Status (1)
+[23:44:46.206] ▷ CheckDLCCable(08050E98)
+[23:44:46.226] CheckDLCCable Result (256) - Status (1)
+[23:44:47.034] ▷ CheckDLCCable(08050E98)
+[23:44:47.054] CheckDLCCable Result (256) - Status (0)
