@@ -98,7 +98,7 @@ class acuProtocol():
                          ['DAB Active Vent', 'PAB - 3rd', 'F ALL Drv', 'F ALL Pass', 'R RPT 2nd Drv', 'R RPT 2nd Pass', 'F Seat Cushion Airbag Drv', 'F Seat Cushion Airbag Pass'],
                          ['Rear Safing Sensor Center', 'CAN Timeout e-Clutch', 'No VIN Number', 'Swivel Seat Sensor 2nd Drv', 'Swivel Seat Sensor 2nd Pass', 'Active Hood Hinge - Drv', 'Active Hood Hinge - Pass', 'Active Hood Latch CTR'],
                          ['G-PPS - Drv', 'G-PPS - Pass', 'P-PPS Drv', 'P-PPS Pass', 'R Buckle Sensor - 1st Cetner', 'R Buckle Sensor - 2nd Center', '3rd Row RPT - Drv', '3rd Row RPT - Pass']
-                        ] 
+                        ] # assigned bit 0 --> bit 7
                 
         self.result = []
         self.occurrenceCounter = int(rawData[18:20])
@@ -107,9 +107,10 @@ class acuProtocol():
 
         for i in range(self.dataBytesLen) :
                 byteData = int(rawData[24+(i*2):24+(i*2+2)], 16)
-                for bit_i in range(8) :
-                     if (byteData & (1 << bit_i)) == 1 :
-                          self.result.append(self.B1762FlagBit[i][bit_i])
+                if byteData :
+                    for bit_i in range(8) :
+                        if (byteData & (1 << bit_i)) != 0 :                     # Fixed the criteria '== 1' --> '!= 0'
+                            self.result.append(self.B1762FlagBit[i][bit_i])
         if self.result :
              return self.occurrenceCounter, self.occurrenceTime, self.result
         else :
